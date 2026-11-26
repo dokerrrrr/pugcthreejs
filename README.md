@@ -8,6 +8,21 @@ Three.js opens drafts and saved maps. [Original Toolkit 1.0.1](https://github.co
 
 Python 3.11 or later and OpenSSL are required. Building the browser renderer
 from source requires Node.js 22 or later. The wheel includes the compiled renderer.
+The meshes, textures, and starting island are stored in this repository with
+Git LFS. After cloning, download them and point the installed toolkit to them:
+
+```sh
+git lfs install
+git lfs pull
+export PUGC_ASSET_DIR="$PWD/assets"
+```
+
+Run these commands from the repository root. The asset archives are about
+656 MiB together; the island adds about 11 MiB. A wheel does not contain
+these large files, so keep the checkout and set `PUGC_ASSET_DIR` when using it.
+The mesh and texture archives are copied from `pugcblender`; the island is
+the checksum-pinned file from the scene editor recorded in
+`pugc_toolkit/base_level.py`.
 
 ```sh
 npm --prefix web ci
@@ -30,7 +45,6 @@ pugc --json doctor --chromium /usr/bin/chromium
 ## Build and verify your first map
 
 ```sh
-export PUGC_ASSET_DIR=/path/to/pugc-assets
 mkdir -p "$PWD/work"
 pugc fetch-pack small --out "$PWD/work/route-meshes.zip"
 pugc --json doctor --mode small --cache-dir "$PWD/work" --island
@@ -44,8 +58,9 @@ demo writes the corrected map and sidecar, paired frames from the
 `Approach` and `Alongside` cameras, and comparison reports. Add
 `--no-render` to run without Chromium.
 
-Put verified copies of `mod_main_level.glb` and `route-meshes.zip` in
-`PUGC_ASSET_DIR`. An existing island cache in `$XDG_CACHE_HOME/pugc-toolkit`
+The checked-out assets include `mod_main_level.glb` and the full mesh archive.
+The command above extracts the nine tutorial meshes to `work/route-meshes.zip`.
+An existing island cache in `$XDG_CACHE_HOME/pugc-toolkit`
 or `~/.cache/pugc-toolkit` also works. Use `--base-level` to select a
 specific GLB. `fetch-pack small` can also extract the nine required
 meshes from `ugc_meshes_all.zip` in that directory or a ZIP specified
@@ -92,8 +107,10 @@ Validation warns when positive scales fall outside the authoring profile. `pugc 
 
 ## Map assets
 
-To get the full asset pack, `pugc fetch-pack full --checkout DIR --cache-dir "$PUGC_ASSET_DIR"`
-requests missing mesh and texture ZIPs in one Git LFS batch.
+The full asset pack is in `assets/` after `git lfs pull`. Check it with
+`pugc --json doctor --mode full --cache-dir "$PUGC_ASSET_DIR" --island`.
+To retrieve the pack into a separate directory from a `pugcblender` checkout,
+use `pugc fetch-pack full --checkout DIR --cache-dir DEST`.
 
 ```sh
 pugc --json fetch-assets --project project.json --out work/map-assets.zip
@@ -107,6 +124,9 @@ in `PUGC_ASSET_DIR`. The result contains meshes, textures, masks derived
 from alpha channels, and a material manifest. To render it, pass it
 through `--meshes` with `--mode textured`. The same ZIP can be passed
 to `fetch-assets --meshes` to extract a subset of textured assets.
+Some source materials have no verified texture binding in the pack; in that
+case `fetch-assets` reports partial coverage and can use a user-supplied
+`--bindings` file. See [Asset bundle](docs/API.md#asset-bundle).
 
 ## Site and camera
 
