@@ -1,0 +1,637 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "processor": "",
+    "tokenizer": "cl100k_base / tiktoken 0.12.0",
+    "island_sha256": "e72dbad55c8c1499ad899b9e50707a0c657952c60024b94a21043fd15d7540dd",
+    "browser": "Chromium 156.0.8078.79 built on Debian GNU/Linux 13 (trixie)",
+    "full_variant": "Same build and verification with full manifest payload in place of scoped inspect (tower) or in addition to author operations (gate)."
+  },
+  "cli": {
+    "gate": {
+      "filtered": {
+        "runs": [
+          {
+            "calls": 10,
+            "stdout_bytes": 12103,
+            "tokens": 4470,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 6.2935299789999135,
+            "result": {
+              "axis": "+X",
+              "gap_cm": 600.0,
+              "anchor_face_cm": 50619.99776661396,
+              "other_face_cm": 51219.99776661396,
+              "cross_axis_overlap_cm": 56.22550472617149,
+              "method": "opposing support planes of native vertices",
+              "pugc_sha256": "58e1b67f1b0d1ed9ea8e51c2a0306946667bf10919b05e54f79aed1471a8a9d3",
+              "ids": [
+                "gate-a",
+                "gate-b"
+              ],
+              "tolerance_cm": 1,
+              "coverage": "complete",
+              "fits": true,
+              "contacts": [
+                {
+                  "id": "gate-a",
+                  "surface": "terrain",
+                  "height_cm": 1064.84375,
+                  "min_height_cm": 1064.7656337109374,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                },
+                {
+                  "id": "gate-b",
+                  "surface": "terrain",
+                  "height_cm": 1063.9843836704204,
+                  "min_height_cm": 1063.5983084751078,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                }
+              ]
+            }
+          },
+          {
+            "calls": 10,
+            "stdout_bytes": 12103,
+            "tokens": 4464,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 5.66331786700016,
+            "result": {
+              "axis": "+X",
+              "gap_cm": 600.0,
+              "anchor_face_cm": 50619.99776661396,
+              "other_face_cm": 51219.99776661396,
+              "cross_axis_overlap_cm": 56.22550472617149,
+              "method": "opposing support planes of native vertices",
+              "pugc_sha256": "2bd8f4b2937d72845aacf29336d5793f98ab4688c501c9e084fac69f29f3d0c5",
+              "ids": [
+                "gate-a",
+                "gate-b"
+              ],
+              "tolerance_cm": 1,
+              "coverage": "complete",
+              "fits": true,
+              "contacts": [
+                {
+                  "id": "gate-a",
+                  "surface": "terrain",
+                  "height_cm": 1064.84375,
+                  "min_height_cm": 1064.7656337109374,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                },
+                {
+                  "id": "gate-b",
+                  "surface": "terrain",
+                  "height_cm": 1063.9843836704204,
+                  "min_height_cm": 1063.5983084751078,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                }
+              ]
+            }
+          },
+          {
+            "calls": 10,
+            "stdout_bytes": 12103,
+            "tokens": 4472,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 5.870035385000165,
+            "result": {
+              "axis": "+X",
+              "gap_cm": 600.0,
+              "anchor_face_cm": 50619.99776661396,
+              "other_face_cm": 51219.99776661396,
+              "cross_axis_overlap_cm": 56.22550472617149,
+              "method": "opposing support planes of native vertices",
+              "pugc_sha256": "8ee10f142e98fcfb5f7c82114d6b0c569f6ed735fb9f1a54af1db8751e4e0ee6",
+              "ids": [
+                "gate-a",
+                "gate-b"
+              ],
+              "tolerance_cm": 1,
+              "coverage": "complete",
+              "fits": true,
+              "contacts": [
+                {
+                  "id": "gate-a",
+                  "surface": "terrain",
+                  "height_cm": 1064.84375,
+                  "min_height_cm": 1064.7656337109374,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                },
+                {
+                  "id": "gate-b",
+                  "surface": "terrain",
+                  "height_cm": 1063.9843836704204,
+                  "min_height_cm": 1063.5983084751078,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                }
+              ]
+            }
+          }
+        ],
+        "seconds": {
+          "samples": [
+            5.66331786700016,
+            5.870035385000165,
+            6.2935299789999135
+          ],
+          "median": 5.870035385000165,
+          "p95": 6.2935299789999135
+        }
+      },
+      "full": {
+        "runs": [
+          {
+            "calls": 11,
+            "stdout_bytes": 13530,
+            "tokens": 4977,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 5.787116907999916,
+            "result": {
+              "axis": "+X",
+              "gap_cm": 600.0,
+              "anchor_face_cm": 50619.99776661396,
+              "other_face_cm": 51219.99776661396,
+              "cross_axis_overlap_cm": 56.22550472617149,
+              "method": "opposing support planes of native vertices",
+              "pugc_sha256": "78d19fbf9e351c9a9112cbd4a565cab7189adb6e8280fe38e5a2f4030da182c2",
+              "ids": [
+                "gate-a",
+                "gate-b"
+              ],
+              "tolerance_cm": 1,
+              "coverage": "complete",
+              "fits": true,
+              "contacts": [
+                {
+                  "id": "gate-a",
+                  "surface": "terrain",
+                  "height_cm": 1064.84375,
+                  "min_height_cm": 1064.7656337109374,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                },
+                {
+                  "id": "gate-b",
+                  "surface": "terrain",
+                  "height_cm": 1063.9843836704204,
+                  "min_height_cm": 1063.5983084751078,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                }
+              ]
+            }
+          },
+          {
+            "calls": 11,
+            "stdout_bytes": 13530,
+            "tokens": 4969,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 5.68809982699986,
+            "result": {
+              "axis": "+X",
+              "gap_cm": 600.0,
+              "anchor_face_cm": 50619.99776661396,
+              "other_face_cm": 51219.99776661396,
+              "cross_axis_overlap_cm": 56.22550472617149,
+              "method": "opposing support planes of native vertices",
+              "pugc_sha256": "516c8d09712878b6ef9221d9277993bc6c3feed733f1f240cc7d56916c38869b",
+              "ids": [
+                "gate-a",
+                "gate-b"
+              ],
+              "tolerance_cm": 1,
+              "coverage": "complete",
+              "fits": true,
+              "contacts": [
+                {
+                  "id": "gate-a",
+                  "surface": "terrain",
+                  "height_cm": 1064.84375,
+                  "min_height_cm": 1064.7656337109374,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                },
+                {
+                  "id": "gate-b",
+                  "surface": "terrain",
+                  "height_cm": 1063.9843836704204,
+                  "min_height_cm": 1063.5983084751078,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                }
+              ]
+            }
+          },
+          {
+            "calls": 11,
+            "stdout_bytes": 13529,
+            "tokens": 4970,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 5.684298349999835,
+            "result": {
+              "axis": "+X",
+              "gap_cm": 600.0,
+              "anchor_face_cm": 50619.99776661396,
+              "other_face_cm": 51219.99776661396,
+              "cross_axis_overlap_cm": 56.22550472617149,
+              "method": "opposing support planes of native vertices",
+              "pugc_sha256": "b8339436884b317e817458a705b7ecb6aab32393b92c28ae75f4145292f4c4ae",
+              "ids": [
+                "gate-a",
+                "gate-b"
+              ],
+              "tolerance_cm": 1,
+              "coverage": "complete",
+              "fits": true,
+              "contacts": [
+                {
+                  "id": "gate-a",
+                  "surface": "terrain",
+                  "height_cm": 1064.84375,
+                  "min_height_cm": 1064.7656337109374,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                },
+                {
+                  "id": "gate-b",
+                  "surface": "terrain",
+                  "height_cm": 1063.9843836704204,
+                  "min_height_cm": 1063.5983084751078,
+                  "samples": 8,
+                  "bottom_offset_cm": -109.44300889968872,
+                  "clearance_cm": 0.0
+                }
+              ]
+            }
+          }
+        ],
+        "seconds": {
+          "samples": [
+            5.684298349999835,
+            5.68809982699986,
+            5.787116907999916
+          ],
+          "median": 5.68809982699986,
+          "p95": 5.787116907999916
+        }
+      }
+    },
+    "tower": {
+      "filtered": {
+        "runs": [
+          {
+            "calls": 9,
+            "stdout_bytes": 10546,
+            "tokens": 3779,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 6.4081158799999685,
+            "result": {
+              "pugc_sha256": "4298e804715b0017cfaf6194eff26e9bc84c63a06010b654fa2caffc12c81925",
+              "changed_id": "tower",
+              "target_cm": {
+                "x": 100800,
+                "y": 1000,
+                "z": 105.0
+              }
+            }
+          },
+          {
+            "calls": 9,
+            "stdout_bytes": 10546,
+            "tokens": 3779,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 6.730193550000195,
+            "result": {
+              "pugc_sha256": "4298e804715b0017cfaf6194eff26e9bc84c63a06010b654fa2caffc12c81925",
+              "changed_id": "tower",
+              "target_cm": {
+                "x": 100800,
+                "y": 1000,
+                "z": 105.0
+              }
+            }
+          },
+          {
+            "calls": 9,
+            "stdout_bytes": 10546,
+            "tokens": 3779,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 6.280818558999954,
+            "result": {
+              "pugc_sha256": "4298e804715b0017cfaf6194eff26e9bc84c63a06010b654fa2caffc12c81925",
+              "changed_id": "tower",
+              "target_cm": {
+                "x": 100800,
+                "y": 1000,
+                "z": 105.0
+              }
+            }
+          }
+        ],
+        "seconds": {
+          "samples": [
+            6.280818558999954,
+            6.4081158799999685,
+            6.730193550000195
+          ],
+          "median": 6.4081158799999685,
+          "p95": 6.730193550000195
+        }
+      },
+      "full": {
+        "runs": [
+          {
+            "calls": 9,
+            "stdout_bytes": 26791,
+            "tokens": 11055,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 7.634405384000274,
+            "result": {
+              "pugc_sha256": "4298e804715b0017cfaf6194eff26e9bc84c63a06010b654fa2caffc12c81925",
+              "changed_id": "tower",
+              "target_cm": {
+                "x": 100800,
+                "y": 1000,
+                "z": 105.0
+              }
+            }
+          },
+          {
+            "calls": 9,
+            "stdout_bytes": 26791,
+            "tokens": 11055,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 8.996573017999708,
+            "result": {
+              "pugc_sha256": "4298e804715b0017cfaf6194eff26e9bc84c63a06010b654fa2caffc12c81925",
+              "changed_id": "tower",
+              "target_cm": {
+                "x": 100800,
+                "y": 1000,
+                "z": 105.0
+              }
+            }
+          },
+          {
+            "calls": 9,
+            "stdout_bytes": 26791,
+            "tokens": 11055,
+            "builds": 1,
+            "iterations": 1,
+            "seconds": 7.201878505999957,
+            "result": {
+              "pugc_sha256": "4298e804715b0017cfaf6194eff26e9bc84c63a06010b654fa2caffc12c81925",
+              "changed_id": "tower",
+              "target_cm": {
+                "x": 100800,
+                "y": 1000,
+                "z": 105.0
+              }
+            }
+          }
+        ],
+        "seconds": {
+          "samples": [
+            7.201878505999957,
+            7.634405384000274,
+            8.996573017999708
+          ],
+          "median": 7.634405384000274,
+          "p95": 8.996573017999708
+        }
+      }
+    }
+  },
+  "browser": {
+    "gate": {
+      "first_frame_cold_ms": {
+        "samples": [
+          208,
+          222.19999999995343,
+          231.30000000004657
+        ],
+        "median": 222.19999999995343,
+        "p95": 231.30000000004657
+      },
+      "first_frame_warm_ms": {
+        "samples": [
+          1,
+          1.3000000000465661,
+          1.4000000001396984
+        ],
+        "median": 1.3000000000465661,
+        "p95": 1.4000000001396984
+      },
+      "interaction_frame_ms": {
+        "samples": [
+          0.39999999990686774,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5999999998603016,
+          0.5999999998603016,
+          0.6000000000931323,
+          0.6000000000931323,
+          0.6000000000931323,
+          0.6000000000931323,
+          0.6000000000931323,
+          0.6999999999534339,
+          0.6999999999534339,
+          0.6999999999534339,
+          0.6999999999534339,
+          0.7000000001862645,
+          0.7000000001862645,
+          0.8000000000465661,
+          0.8000000000465661,
+          0.8999999999068677,
+          0.9000000001396984,
+          1,
+          1,
+          1,
+          1.0999999998603016,
+          1.0999999998603016,
+          1.1000000000931323,
+          1.1000000000931323,
+          1.1000000000931323,
+          1.1999999999534339,
+          1.3000000000465661,
+          1.3999999999068677,
+          1.8000000000465661
+        ],
+        "median": 0.6000000000931323,
+        "p95": 1.3000000000465661
+      },
+      "render": {
+        "draw_calls": 8,
+        "triangles": 518144,
+        "geometries": 8,
+        "textures": 5
+      },
+      "released": [
+        {
+          "draw_calls": 0,
+          "triangles": 0,
+          "geometries": 0,
+          "textures": 1
+        },
+        {
+          "draw_calls": 0,
+          "triangles": 0,
+          "geometries": 0,
+          "textures": 1
+        },
+        {
+          "draw_calls": 0,
+          "triangles": 0,
+          "geometries": 0,
+          "textures": 1
+        }
+      ]
+    },
+    "tower": {
+      "first_frame_cold_ms": {
+        "samples": [
+          120.4000000001397,
+          162,
+          207.30000000004657
+        ],
+        "median": 162,
+        "p95": 207.30000000004657
+      },
+      "first_frame_warm_ms": {
+        "samples": [
+          0.7000000001862645,
+          0.8999999999068677,
+          1
+        ],
+        "median": 0.8999999999068677,
+        "p95": 1
+      },
+      "interaction_frame_ms": {
+        "samples": [
+          0.09999999986030161,
+          0.09999999986030161,
+          0.19999999995343387,
+          0.30000000004656613,
+          0.30000000004656613,
+          0.30000000004656613,
+          0.30000000004656613,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.39999999990686774,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.4000000001396984,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.6000000000931323,
+          0.6999999999534339,
+          0.6999999999534339,
+          0.8000000000465661
+        ],
+        "median": 0.4000000001396984,
+        "p95": 0.6999999999534339
+      },
+      "render": {
+        "draw_calls": 8,
+        "triangles": 145575,
+        "geometries": 8,
+        "textures": 2
+      },
+      "released": [
+        {
+          "draw_calls": 0,
+          "triangles": 0,
+          "geometries": 0,
+          "textures": 1
+        },
+        {
+          "draw_calls": 0,
+          "triangles": 0,
+          "geometries": 0,
+          "textures": 1
+        },
+        {
+          "draw_calls": 0,
+          "triangles": 0,
+          "geometries": 0,
+          "textures": 1
+        }
+      ]
+    }
+  }
+}

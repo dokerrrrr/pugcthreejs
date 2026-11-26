@@ -1,0 +1,123 @@
+{
+  "pugc_sha256": "7855aebfa3ade3563b1d6d48f1f45c465c1241704966532b34548d9cf39d3340",
+  "approved_road_count": 1,
+  "game_origin_x_cm": 50000,
+  "geometry_check": {
+    "schema": 1,
+    "strict": true,
+    "status": "partial",
+    "checks": {
+      "instances": {
+        "status": "incomplete",
+        "expected": 6,
+        "checked": 4,
+        "missing": [
+          "tire-inside",
+          "tire-visible"
+        ],
+        "findings": 0
+      },
+      "road_joins": {
+        "status": "skipped",
+        "expected": 0,
+        "checked": 0,
+        "missing": [],
+        "findings": 0
+      },
+      "viewpoints": {
+        "status": "skipped",
+        "expected": 3,
+        "checked": 0,
+        "missing": [],
+        "findings": 0
+      },
+      "approved_road": {
+        "status": "checked",
+        "expected": 1,
+        "checked": 1,
+        "missing": [],
+        "findings": 0
+      },
+      "annotations": {
+        "status": "checked",
+        "expected": 1,
+        "checked": 1,
+        "missing": [],
+        "findings": 0
+      }
+    }
+  },
+  "changed_approved_road": [],
+  "road_joins": [],
+  "viewpoints": [
+    {
+      "name": "Upper approach",
+      "route": "upper",
+      "at_m": [
+        0,
+        -3,
+        7.7
+      ]
+    },
+    {
+      "name": "Neighboring branch",
+      "route": "neighbor",
+      "at_m": [
+        -9,
+        7,
+        4.5
+      ]
+    },
+    {
+      "name": "Lower road",
+      "route": "lower",
+      "at_m": [
+        8,
+        7,
+        1.7
+      ]
+    }
+  ],
+  "opaque_instances": [
+    "deck",
+    "lower-lane",
+    "support-a",
+    "support-b"
+  ],
+  "kept_structural_instances": [
+    "support-a",
+    "support-b"
+  ],
+  "missing_meshes": [
+    "tire-inside",
+    "tire-visible"
+  ],
+  "under_road": [
+    {
+      "instance": "lower-lane",
+      "objectId": 13003,
+      "road": "deck",
+      "center_projection_clearance_m": 6.000278901755809,
+      "decision": "keep",
+      "reason": "gameplay function"
+    },
+    {
+      "instance": "support-a",
+      "objectId": 16180,
+      "road": "deck",
+      "center_projection_clearance_m": 0.18295249938964808,
+      "decision": "keep",
+      "reason": "structural support"
+    },
+    {
+      "instance": "support-b",
+      "objectId": 16180,
+      "road": "deck",
+      "center_projection_clearance_m": 0.18295249938964808,
+      "decision": "keep",
+      "reason": "structural support"
+    }
+  ],
+  "under_road_count": 3,
+  "suggested_savings": 0
+}

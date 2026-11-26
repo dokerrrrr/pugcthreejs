@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PUBG UGC Toolkit JSON formats, schema 1",
+  "anyOf": [
+    { "$ref": "#project" },
+    { "$ref": "#receipt" }
+  ],
+  "$defs": {
+    "project": {
+      "$anchor": "project",
+      "type": "object",
+      "required": ["schema", "origin_x_cm", "game", "instances"],
+      "properties": {
+        "schema": { "const": 1 },
+        "layout_version": { "const": 2 },
+        "origin_x_cm": { "type": "number" },
+        "game": {
+          "description": "Game metadata and extensions. The objects array comes from instances.",
+          "type": "object",
+          "not": { "required": ["objects"] }
+        },
+        "instances": {
+          "type": "array",
+          "items": {
+            "allOf": [{ "$ref": "#/$defs/instanceMetadata" }],
+            "required": ["transform"],
+            "properties": {
+              "transform": { "$ref": "#/$defs/transform" },
+              "game_original": { "type": "object" }
+            }
+          }
+        },
+        "approved_road": { "$ref": "#/$defs/approvedRoad" }
+      }
+    },
+    "receipt": {
+      "$anchor": "receipt",
+      "type": "object",
+      "required": ["schema", "pugc_sha256", "origin_x_cm", "instances"],
+      "properties": {
+        "schema": { "const": 1 },
+        "layout_version": { "const": 2 },
+        "pugc_sha256": {
+          "description": "SHA-256 of the entire binary PUGC file in lowercase hexadecimal.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "minLength": 64,
+          "maxLength": 64
+        },
+        "origin_x_cm": { "type": "number" },
+        "instances": {
+          "description": "Metadata in the exact order of the decoded PUGC objects array.",
+          "type": "array",
+          "items": {
+            "allOf": [{ "$ref": "#/$defs/instanceMetadata" }],
+            "not": {
+              "anyOf": [
+                { "required": ["transform"] },
+                { "required": ["game_original"] }
+              ]
+            }
+          }
+        },
+        "approved_road": { "$ref": "#/$defs/approvedRoad" }
+      }
+    },
+    "instanceMetadata": {
+      "type": "object",
+      "required": ["id", "objectId", "assembly", "zone"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "objectId": { "type": "integer" },
+        "assembly": { "type": "string", "minLength": 1 },
+        "zone": { "enum": ["road", "shoulder", "near", "far"] },
+        "source": { "description": "Optional provenance label." },
+        "role": { "description": "Optional instance role used by QA." },
+        "gameplay": { "description": "Optional instance flag used by QA." }
+      }
+    },
+    "approvedRoad": {
+      "type": "object",
+      "propertyNames": { "minLength": 1 },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["objectId", "transform"],
+        "properties": {
+          "objectId": { "type": "integer" },
+          "transform": { "$ref": "#/$defs/transform" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "transform": {
+      "description": "Authoring XYZ translation in centimeters, XYZW quaternion, XYZ unitless scale.",
+      "type": "object",
+      "required": ["translation", "rotation", "scale3D"],
+      "properties": {
+        "translation": { "$ref": "#/$defs/xyz" },
+        "rotation": {
+          "allOf": [{ "$ref": "#/$defs/xyz" }],
+          "required": ["w"],
+          "properties": { "w": { "type": "number" } }
+        },
+        "scale3D": { "$ref": "#/$defs/xyz" }
+      }
+    },
+    "xyz": {
+      "type": "object",
+      "required": ["x", "y", "z"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "z": { "type": "number" }
+      }
+    }
+  }
+}

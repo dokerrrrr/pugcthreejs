@@ -1,0 +1,16 @@
+{
+  "instances": 3000,
+  "operations": 100,
+  "serial": {
+    "elapsed_s": 7.902,
+    "project_writes": 100,
+    "build_s": 0.06687485800011927,
+    "validate_s": 0.04362672399997791
+  },
+  "batch": {
+    "elapsed_s": 0.087,
+    "project_writes": 1,
+    "build_s": 0.06542603499997313,
+    "validate_s": 0.0320587199998954
+  }
+}

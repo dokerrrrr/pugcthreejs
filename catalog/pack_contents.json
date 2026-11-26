@@ -1,0 +1,21 @@
+{
+  "name": "PUBG PC UGC Complete AI Toolkit",
+  "model_mesh_count": 741,
+  "model_json_count": 741,
+  "texture_webp_count": 3092,
+  "texture_archive_file_count": 3095,
+  "includes_source_bsp": false,
+  "includes_blender_executable": false,
+  "contains_blend_scenes": true,
+  "models_zip_sha256": "fd0354e746b0f51c0479f4e9629277fd3e3abd6f4f90cff87aaf30346138e7a2",
+  "textures_zip_sha256": "9e282ec3eb9ac9d4935430d7c0b00c7990dce10dd232bf002e89a2736088a196",
+  "source_bsp_sha256": "3a2a664cbc74c90426592808d7f4d1fb7d6ac4c103dd54a122e96e0cfe4735b3",
+  "origin_files": [
+    "overpass_geometry_lab_ugc.zip",
+    "PUGC_Textures_Ready.zip",
+    "PUBG_UGC_Face_Aware_Vertigo_Toolkit.zip",
+    "PUBG_UGC_Architecture_Textured_Toolkit.zip",
+    "UGC_BSP_Reconstructor_MinScale009.zip",
+    "de_vertigo.bsp"
+  ]
+}

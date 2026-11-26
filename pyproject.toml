@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pubg-ugc-toolkit"
+dynamic = ["version"]
+description = "Author, build, and validate PUBG UGC maps"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+pugc = "pugc_toolkit.ugc_project:main"
+
+[project.optional-dependencies]
+geometry = ["numpy>=1.24", "trimesh==4.12.2", "Pillow>=10"]
+render = ["pubg-ugc-toolkit[geometry]", "playwright==1.62.0"]
+benchmark = ["pubg-ugc-toolkit[render]", "tiktoken==0.12.0"]
+research = ["numpy>=1.24", "scipy>=1.11", "shapely>=2.0"]
+
+[tool.setuptools]
+packages = ["pugc_toolkit", "pugc_toolkit.catalog"]
+include-package-data = false
+
+[tool.setuptools.package-dir]
+"pugc_toolkit.catalog" = "catalog"
+
+[tool.setuptools.package-data]
+pugc_toolkit = ["web/render.js", "web/render.html", "web/render.js.LEGAL.txt"]
+"pugc_toolkit.catalog" = [
+    "legacy_layout_centres.json",
+    "pack_contents.json",
+    "placement_profile.json",
+    "pugc_v3_empty.json",
+    "texture_id_index.json",
+    "texture_material_candidates.json",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "pugc_toolkit.__version__"}

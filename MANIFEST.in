@@ -1,0 +1,9 @@
+include README.md
+include pugc_toolkit/web/render.html pugc_toolkit/web/render.js pugc_toolkit/web/render.js.LEGAL.txt
+include AGENTS.md
+recursive-include docs *.md *.json
+recursive-include examples *.py
+recursive-include tools *.py *.mjs
+recursive-include web *.mjs *.js *.json *.html *.css
+prune web/node_modules
+prune tests

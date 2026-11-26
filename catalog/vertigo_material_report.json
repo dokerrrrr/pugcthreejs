@@ -1,0 +1,364 @@
+{
+  "objects": 2079,
+  "id_count": {
+    "13003": 396,
+    "13005": 22,
+    "13004": 192,
+    "13011": 20,
+    "16042": 302,
+    "12017": 515,
+    "12016": 369,
+    "12102": 106,
+    "12025": 157
+  },
+  "material_classes": {
+    "metal": 344,
+    "concrete": 839,
+    "drywall": 339,
+    "wood": 311,
+    "brick": 124,
+    "tile": 106,
+    "unknown": 16
+  },
+  "top_source_materials": [
+    [
+      "concrete/vertigo_concretewallb",
+      547
+    ],
+    [
+      "concrete/vertigo_concretefloorc",
+      163
+    ],
+    [
+      "ar_dizzy/dizzy_wooden_planks_02",
+      156
+    ],
+    [
+      "ar_dizzy/dizzy_drywall_color",
+      130
+    ],
+    [
+      "brick/hr_brick/vertigo/hr_brick_white_01",
+      124
+    ],
+    [
+      "ar_dizzy/dizzy_drywall_back_color",
+      122
+    ],
+    [
+      "hr_massive/wood_planks_4",
+      94
+    ],
+    [
+      "ar_dizzy/dizzy_drywall_patched_color",
+      54
+    ],
+    [
+      "maps/de_vertigo/tile/ceilingtilea_-2142_-1064_12024",
+      52
+    ],
+    [
+      "concrete/hr_c/hr_concrete_stairs_01_color",
+      33
+    ],
+    [
+      "concrete/hr_c/hr_concrete_floor_001",
+      25
+    ],
+    [
+      "metal/vertigo_ibeam",
+      23
+    ],
+    [
+      "concrete/hr_c/hr_concrete_floor_05",
+      22
+    ],
+    [
+      "maps/de_vertigo/tile/ceilingtilea_-1462_-274_11816",
+      19
+    ],
+    [
+      "metal/hr_metal/hr_metal_trim_002",
+      17
+    ],
+    [
+      "maps/de_vertigo/metal/ibeam_-889_-270_11816",
+      16
+    ],
+    [
+      "de_vertigo/metal2x4",
+      15
+    ],
+    [
+      "concrete/hr_c/hr_concrete_floor_05_blend",
+      15
+    ],
+    [
+      "maps/de_vertigo/metal/ibeam_-2328_540_11832",
+      14
+    ],
+    [
+      "maps/de_vertigo/metal/freezerwall01_-1217_1145_11227",
+      13
+    ],
+    [
+      "maps/de_vertigo/metal/ibeam_-2142_-1064_12024",
+      13
+    ],
+    [
+      "maps/de_vertigo/tile/ceilingtilea_-718_243_11828",
+      13
+    ],
+    [
+      "maps/de_vertigo/metal/freezerwall01_137_-254_11282",
+      12
+    ],
+    [
+      "metal/nukibeamb_detail",
+      12
+    ],
+    [
+      "maps/de_vertigo/metal/ibeam_-1462_-274_11816",
+      12
+    ],
+    [
+      "maps/de_vertigo/metal/freezerwall01_-1267_-1713_11256",
+      10
+    ],
+    [
+      "maps/de_vertigo/metal/hr_metal/hr_ibeam_01_vertigo_clean_-672_-1214_11681",
+      10
+    ],
+    [
+      "ar_dizzy/dizzy_insulation_back_color",
+      10
+    ],
+    [
+      "maps/de_vertigo/metal/ibeam_-2328_-444_11848",
+      10
+    ],
+    [
+      "maps/de_vertigo/metal/freezerwall01_-2760_-456_11263",
+      9
+    ]
+  ],
+  "uncertain_assignments": 56,
+  "examples_uncertain": [
+    {
+      "i": 167,
+      "mat": "maps/de_vertigo/concrete/vertigo_tunnel_concretewall_01c_-2265_11_11608",
+      "guess": "concrete",
+      "confidence": 0.52,
+      "kind": "horizontal"
+    },
+    {
+      "i": 216,
+      "mat": "metal/nukibeamb_detail",
+      "guess": "metal",
+      "confidence": 0.52,
+      "kind": "horizontal"
+    },
+    {
+      "i": 258,
+      "mat": "concrete/vertigo_concretefloorc",
+      "guess": "concrete",
+      "confidence": 0.51,
+      "kind": "horizontal"
+    },
+    {
+      "i": 293,
+      "mat": "concrete/vertigo_concretefloorc",
+      "guess": "concrete",
+      "confidence": 0.53,
+      "kind": "horizontal"
+    },
+    {
+      "i": 299,
+      "mat": "concrete/vertigo_concretefloorc",
+      "guess": "concrete",
+      "confidence": 0.51,
+      "kind": "horizontal"
+    },
+    {
+      "i": 303,
+      "mat": "concrete/hr_c/hr_concrete_floor_001",
+      "guess": "concrete",
+      "confidence": 0.5,
+      "kind": "horizontal"
+    },
+    {
+      "i": 345,
+      "mat": "ar_dizzy/dizzy_drywall_color",
+      "guess": "drywall",
+      "confidence": 0.53,
+      "kind": "horizontal"
+    },
+    {
+      "i": 346,
+      "mat": "ar_dizzy/dizzy_drywall_color",
+      "guess": "drywall",
+      "confidence": 0.52,
+      "kind": "horizontal"
+    },
+    {
+      "i": 348,
+      "mat": "concrete/vertigo_concretefloorc",
+      "guess": "concrete",
+      "confidence": 0.51,
+      "kind": "horizontal"
+    },
+    {
+      "i": 353,
+      "mat": "concrete/hr_c/hr_concrete_floor_001",
+      "guess": "concrete",
+      "confidence": 0.51,
+      "kind": "horizontal"
+    },
+    {
+      "i": 381,
+      "mat": "ar_dizzy/dizzy_drywall_color",
+      "guess": "drywall",
+      "confidence": 0.51,
+      "kind": "horizontal"
+    },
+    {
+      "i": 396,
+      "mat": "maps/de_vertigo/tile/ceilingtilea_-1462_-274_11816",
+      "guess": "tile",
+      "confidence": 0.41,
+      "kind": "horizontal"
+    },
+    {
+      "i": 498,
+      "mat": "maps/de_vertigo/tile/ceilingtilea_-2142_-1064_12024",
+      "guess": "tile",
+      "confidence": 0.5,
+      "kind": "horizontal"
+    },
+    {
+      "i": 599,
+      "mat": null,
+      "guess": "unknown",
+      "confidence": 0.0,
+      "kind": "horizontal"
+    },
+    {
+      "i": 702,
+      "mat": "maps/de_vertigo/metal/freezerwall01_-1217_1145_11227",
+      "guess": "metal",
+      "confidence": 0.52,
+      "kind": "wall"
+    },
+    {
+      "i": 753,
+      "mat": "ar_dizzy/dizzy_drywall_color",
+      "guess": "drywall",
+      "confidence": 0.51,
+      "kind": "wall"
+    },
+    {
+      "i": 882,
+      "mat": "ar_dizzy/dizzy_drywall_color",
+      "guess": "drywall",
+      "confidence": 0.49,
+      "kind": "wall"
+    },
+    {
+      "i": 900,
+      "mat": "brick/hr_brick/vertigo/hr_brick_white_01",
+      "guess": "brick",
+      "confidence": 0.51,
+      "kind": "wall"
+    },
+    {
+      "i": 937,
+      "mat": "ar_dizzy/dizzy_drywall_patched_color",
+      "guess": "drywall",
+      "confidence": 0.39,
+      "kind": "wall"
+    },
+    {
+      "i": 1028,
+      "mat": "ar_dizzy/dizzy_drywall_color",
+      "guess": "drywall",
+      "confidence": 0.49,
+      "kind": "wall"
+    },
+    {
+      "i": 1054,
+      "mat": "ar_dizzy/dizzy_drywall_patched_color",
+      "guess": "drywall",
+      "confidence": 0.51,
+      "kind": "wall"
+    },
+    {
+      "i": 1088,
+      "mat": "ar_dizzy/dizzy_drywall_patched_color",
+      "guess": "drywall",
+      "confidence": 0.44,
+      "kind": "wall"
+    },
+    {
+      "i": 1153,
+      "mat": "brick/hr_brick/vertigo/hr_brick_white_01",
+      "guess": "brick",
+      "confidence": 0.5,
+      "kind": "wall"
+    },
+    {
+      "i": 1156,
+      "mat": "ar_dizzy/dizzy_wooden_planks_02",
+      "guess": "wood",
+      "confidence": 0.49,
+      "kind": "wall"
+    },
+    {
+      "i": 1180,
+      "mat": "de_vertigo/metal2x4",
+      "guess": "metal",
+      "confidence": 0.52,
+      "kind": "wall"
+    },
+    {
+      "i": 1197,
+      "mat": "ar_dizzy/dizzy_wooden_planks_02",
+      "guess": "wood",
+      "confidence": 0.53,
+      "kind": "wall"
+    },
+    {
+      "i": 1326,
+      "mat": "de_vertigo/metal2x4",
+      "guess": "metal",
+      "confidence": 0.37,
+      "kind": "wall"
+    },
+    {
+      "i": 1370,
+      "mat": "maps/de_vertigo/wood/vertigo_door1_-2328_-444_11848",
+      "guess": "wood",
+      "confidence": 0.52,
+      "kind": "wall"
+    },
+    {
+      "i": 1372,
+      "mat": "maps/de_vertigo/wood/vertigo_door1_-1373_-647_11836",
+      "guess": "wood",
+      "confidence": 0.36,
+      "kind": "wall"
+    },
+    {
+      "i": 1373,
+      "mat": "maps/de_vertigo/ar_dizzy/dizzy_shack_panel_color_-803_-655_11833",
+      "guess": "unknown",
+      "confidence": 1.0,
+      "kind": "wall"
+    }
+  ],
+  "warnings": [
+    "Face material classification inferred from BSP string tags; does not reproduce actual Source diffuse textures.",
+    "PUBG textures include thumbnails but direct material-to-diffuse ID links incomplete.",
+    "Original static prop geometry and game collision not reconstructed.",
+    "Sloped BSP surfaces approximated as plates, not assumed to be functional stairs."
+  ]
+}

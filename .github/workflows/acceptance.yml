@@ -1,0 +1,56 @@
+name: PUGC acceptance
+
+on:
+  pull_request:
+  push:
+    branches: [main, 'codex/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quick:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install '.[geometry]'
+      - run: python -B -m unittest discover -s tests -v
+      - run: |
+          python -m venv "$RUNNER_TEMP/base"
+          "$RUNNER_TEMP/base/bin/pip" install .
+          cd "$RUNNER_TEMP"
+          "$RUNNER_TEMP/base/bin/pugc" init project.json --name 'Base smoke'
+          "$RUNNER_TEMP/base/bin/pugc" place project.json gate-a 12005 --at-cm 51000 51000 1064 --assembly Gate
+          "$RUNNER_TEMP/base/bin/pugc" build project.json smoke.pugc
+          "$RUNNER_TEMP/base/bin/pugc" --json validate smoke.pugc
+
+  integration:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: |
+          npm --prefix web ci
+          npm --prefix web run build
+          python -m pip install build
+          python -m build
+          python -m pip install "$(echo "$GITHUB_WORKSPACE"/dist/*.whl)[render]"
+          python -m playwright install --with-deps chromium
+      - name: Check Chromium and WebGL
+        run: pugc --json doctor --render
+      - uses: actions/upload-artifact@v4
+        with:
+          name: toolkit-distributions
+          path: dist/

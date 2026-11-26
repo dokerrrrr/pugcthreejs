@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "layout_version": 2,
+  "pugc_sha256": "7855aebfa3ade3563b1d6d48f1f45c465c1241704966532b34548d9cf39d3340",
+  "origin_x_cm": 50000,
+  "instances": [
+    {
+      "id": "deck",
+      "objectId": 16197,
+      "assembly": "Deck",
+      "zone": "road"
+    },
+    {
+      "id": "lower-lane",
+      "objectId": 13003,
+      "assembly": "Lower lane",
+      "zone": "shoulder",
+      "source": "Lower road",
+      "role": "route",
+      "gameplay": true
+    },
+    {
+      "id": "support-a",
+      "objectId": 16180,
+      "assembly": "Supports",
+      "zone": "near",
+      "role": "support"
+    },
+    {
+      "id": "support-b",
+      "objectId": 16180,
+      "assembly": "Supports",
+      "zone": "near",
+      "role": "support"
+    },
+    {
+      "id": "tire-inside",
+      "objectId": 16087,
+      "assembly": "Tires",
+      "zone": "near",
+      "role": "decor",
+      "gameplay": false
+    },
+    {
+      "id": "tire-visible",
+      "objectId": 16087,
+      "assembly": "Tires",
+      "zone": "near",
+      "role": "decor",
+      "gameplay": false
+    }
+  ],
+  "approved_road": {
+    "deck": {
+      "objectId": 16197,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -600,
+          "z": 600
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "name": "Gate approach",
+  "dataVersion": 3,
+  "buildVersion": "2608.1.1",
+  "editFileData": {
+    "createAccountId": "",
+    "createTime": 1795650703,
+    "lastModifierAccountId": "",
+    "lastModifiedTime": 1795650703,
+    "editPlayers": [],
+    "lastHostPlayerData": null
+  },
+  "creatorData": {
+    "name": "Gate approach",
+    "description": "",
+    "mainTagId": "MainTag_None",
+    "subTagIds": [],
+    "versionMajor": 1,
+    "versionMinor": 0,
+    "ownerAccountId": "",
+    "ownerNickName": ""
+  },
+  "deviceEventList": [],
+  "userSelectableData": {
+    "modUserSelectPlayType": "NONE"
+  },
+  "roundRuleData": {},
+  "characterRuleData": {},
+  "gameRuleData": {},
+  "objects": [
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16197,
+      "spawnTransform": {
+        "translation": {
+          "x": 100000,
+          "y": -1000,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16197,
+      "spawnTransform": {
+        "translation": {
+          "x": 100000,
+          "y": 600,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 12005,
+      "spawnTransform": {
+        "translation": {
+          "x": 100390.0,
+          "y": 685.0,
+          "z": 148.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1.1,
+          "y": 1.1,
+          "z": 1.35
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 12005,
+      "spawnTransform": {
+        "translation": {
+          "x": 99590.0,
+          "y": 685.0,
+          "z": 148.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1.1,
+          "y": 1.1,
+          "z": 1.35
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 13003,
+      "spawnTransform": {
+        "translation": {
+          "x": 100000,
+          "y": 700,
+          "z": 391.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 4.9,
+          "y": 0.21,
+          "z": 4
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 10048,
+      "spawnTransform": {
+        "translation": {
+          "x": 99200,
+          "y": 1000,
+          "z": 105.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 0.78,
+          "y": 0.78,
+          "z": 0.35
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 10053,
+      "spawnTransform": {
+        "translation": {
+          "x": 99295.0,
+          "y": 1210.0,
+          "z": 98.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 0.86,
+          "y": 0.88,
+          "z": 0.55
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 12005,
+      "spawnTransform": {
+        "translation": {
+          "x": 99404.0,
+          "y": 1070.0,
+          "z": 111.00000000000001
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 12005,
+      "spawnTransform": {
+        "translation": {
+          "x": 99404.0,
+          "y": 1200,
+          "z": 111.00000000000001
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 12005,
+      "spawnTransform": {
+        "translation": {
+          "x": 99404.0,
+          "y": 1330.0,
+          "z": 111.00000000000001
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16052,
+      "spawnTransform": {
+        "translation": {
+          "x": 100580.0,
+          "y": 500,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16052,
+      "spawnTransform": {
+        "translation": {
+          "x": 99420.0,
+          "y": 500.0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -1.0,
+          "w": 6.123233995736766e-17
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ]
+}

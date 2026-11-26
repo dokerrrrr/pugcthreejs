@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "dataVersion": 3,
+  "buildVersion": "2611.1.2",
+  "editFileData": {
+    "createAccountId": "",
+    "createTime": 0,
+    "lastModifierAccountId": "",
+    "lastModifiedTime": 0,
+    "editPlayers": [],
+    "lastHostPlayerData": null
+  },
+  "creatorData": {
+    "name": "",
+    "description": "",
+    "mainTagId": "MainTag_None",
+    "subTagIds": [],
+    "versionMajor": 1,
+    "versionMinor": 0,
+    "ownerAccountId": "",
+    "ownerNickName": ""
+  },
+  "objects": [],
+  "deviceEventList": [],
+  "userSelectableData": {
+    "modUserSelectPlayType": "NONE"
+  },
+  "roundRuleData": {},
+  "characterRuleData": {},
+  "gameRuleData": {}
+}

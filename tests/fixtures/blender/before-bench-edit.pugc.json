@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "layout_version": 2,
+  "pugc_sha256": "c5a4e4f7e87da5054f35057650498493d7446a41618493c013a3f85327f7f328",
+  "origin_x_cm": 50000,
+  "instances": [
+    {
+      "id": "road-before",
+      "objectId": 16197,
+      "assembly": "Pavement",
+      "zone": "road",
+      "source": "Road"
+    },
+    {
+      "id": "road-after",
+      "objectId": 16197,
+      "assembly": "Pavement",
+      "zone": "road",
+      "source": "Road"
+    },
+    {
+      "id": "gate-west",
+      "objectId": 12005,
+      "assembly": "Gate",
+      "zone": "near",
+      "source": "Gate west post"
+    },
+    {
+      "id": "gate-east",
+      "objectId": 12005,
+      "assembly": "Gate",
+      "zone": "near",
+      "source": "Gate east post"
+    },
+    {
+      "id": "gate-header",
+      "objectId": 13003,
+      "assembly": "Gate",
+      "zone": "near",
+      "source": "Gate header"
+    },
+    {
+      "id": "tower",
+      "objectId": 10048,
+      "assembly": "Tower",
+      "zone": "far",
+      "source": "Tower"
+    },
+    {
+      "id": "workshop",
+      "objectId": 10053,
+      "assembly": "Workshop",
+      "zone": "near",
+      "source": "Workshop"
+    },
+    {
+      "id": "facade-1",
+      "objectId": 12005,
+      "assembly": "Workshop facade",
+      "zone": "near",
+      "source": "Array facade"
+    },
+    {
+      "id": "facade-2",
+      "objectId": 12005,
+      "assembly": "Workshop facade",
+      "zone": "near",
+      "source": "Array facade"
+    },
+    {
+      "id": "facade-3",
+      "objectId": 12005,
+      "assembly": "Workshop facade",
+      "zone": "near",
+      "source": "Array facade"
+    },
+    {
+      "id": "bench-west",
+      "objectId": 16052,
+      "assembly": "West bench",
+      "zone": "shoulder",
+      "source": "Bench west"
+    },
+    {
+      "id": "bench-east",
+      "objectId": 16052,
+      "assembly": "East bench",
+      "zone": "shoulder",
+      "source": "Bench east"
+    }
+  ],
+  "approved_road": {
+    "road-before": {
+      "objectId": 16197,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -1000,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    "road-after": {
+      "objectId": 16197,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 600,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "materials_with_alpha_test_from_repository": [
+    "MI_Savage_BootConcreteEdgeDecal_Proxy",
+    "MI_VS7_EdgeDecal_01_Proxy"
+  ],
+  "source": "https://github.com/PlzDntKilMeh/pugc-editor/blob/main/dump/_material_render_flags.json",
+  "note": "Only a documented subset; absent flags are not proof of opacity"
+}

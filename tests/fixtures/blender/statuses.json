@@ -1,0 +1,56 @@
+{
+  "route": {
+    "exit_code": 0,
+    "diagnostics": []
+  },
+  "wrong-tower": {
+    "exit_code": 2,
+    "diagnostics": [
+      {
+        "code": "geometry_mismatch",
+        "instance_id": null,
+        "object_id": null
+      },
+      {
+        "code": "geometry_mismatch",
+        "instance_id": null,
+        "object_id": null
+      }
+    ]
+  },
+  "partial-audit": {
+    "exit_code": 4,
+    "diagnostics": [
+      {
+        "code": "mesh_missing",
+        "instance_id": "tire-inside",
+        "object_id": 16087
+      },
+      {
+        "code": "mesh_missing",
+        "instance_id": "tire-visible",
+        "object_id": 16087
+      }
+    ]
+  },
+  "broken-pair": {
+    "exit_code": 1,
+    "diagnostics": [
+      {
+        "code": "invalid_map",
+        "instance_id": null,
+        "object_id": null
+      }
+    ]
+  },
+  "write-failure": {
+    "exit_code": 5,
+    "diagnostics": [
+      {
+        "code": "file_operation_failed",
+        "instance_id": null,
+        "object_id": null
+      }
+    ]
+  }
+}

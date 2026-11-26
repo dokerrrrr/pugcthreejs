@@ -1,0 +1,170 @@
+{
+  "name": "Overpass visibility fixture",
+  "dataVersion": 3,
+  "buildVersion": "2608.1.1",
+  "editFileData": {
+    "createAccountId": "",
+    "createTime": 1795650703,
+    "lastModifierAccountId": "",
+    "lastModifiedTime": 1795650703,
+    "editPlayers": [],
+    "lastHostPlayerData": null
+  },
+  "creatorData": {
+    "name": "Overpass visibility fixture",
+    "description": "",
+    "mainTagId": "MainTag_None",
+    "subTagIds": [],
+    "versionMajor": 1,
+    "versionMinor": 0,
+    "ownerAccountId": "",
+    "ownerNickName": ""
+  },
+  "deviceEventList": [],
+  "userSelectableData": {
+    "modUserSelectPlayType": "NONE"
+  },
+  "roundRuleData": {},
+  "characterRuleData": {},
+  "gameRuleData": {},
+  "objects": [
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16197,
+      "spawnTransform": {
+        "translation": {
+          "x": 100000,
+          "y": -600,
+          "z": 600
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 13003,
+      "spawnTransform": {
+        "translation": {
+          "x": 99800,
+          "y": 700,
+          "z": -17.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 9.15,
+          "y": 4.55,
+          "z": 2.6
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16180,
+      "spawnTransform": {
+        "translation": {
+          "x": 100000,
+          "y": 100,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 0.4
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16180,
+      "spawnTransform": {
+        "translation": {
+          "x": 100000,
+          "y": 700,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 0.4
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16087,
+      "spawnTransform": {
+        "translation": {
+          "x": 100000,
+          "y": 100,
+          "z": 170.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "deviceIndex": -1,
+      "userDeviceName": "",
+      "objectId": 16087,
+      "spawnTransform": {
+        "translation": {
+          "x": 99700,
+          "y": 700,
+          "z": 70.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ]
+}

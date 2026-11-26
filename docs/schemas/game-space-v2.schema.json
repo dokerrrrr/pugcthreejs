@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sashakykyshka17-pixel/pugcthreejs/blob/main/docs/schemas/game-space-v2.schema.json",
+  "title": "PUGC game-space project and agent protocol",
+  "oneOf": [
+    {"$ref": "#/$defs/project"},
+    {"$ref": "#/$defs/receipt"},
+    {"$ref": "#/$defs/edit"},
+    {"$ref": "#/$defs/response"}
+  ],
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+    "name": {"type": "string", "minLength": 1},
+    "zone": {"enum": ["road", "near", "far", "shoulder"]},
+    "xyz": {
+      "type": "object", "required": ["x", "y", "z"],
+      "properties": {"x": {"type": "number"}, "y": {"type": "number"}, "z": {"type": "number"}}
+    },
+    "xyzw": {
+      "allOf": [
+        {"$ref": "#/$defs/xyz"},
+        {"type": "object", "required": ["w"], "properties": {"w": {"type": "number"}}}
+      ]
+    },
+    "transform": {
+      "type": "object", "required": ["translation", "rotation", "scale3D"],
+      "properties": {
+        "translation": {"$ref": "#/$defs/xyz"},
+        "rotation": {"$ref": "#/$defs/xyzw"},
+        "scale3D": {"$ref": "#/$defs/xyz"}
+      }
+    },
+    "metadata": {
+      "type": "object", "required": ["id", "objectId", "assembly", "zone"],
+      "properties": {
+        "id": {"$ref": "#/$defs/name"}, "objectId": {"type": "integer"},
+        "assembly": {"$ref": "#/$defs/name"}, "zone": {"$ref": "#/$defs/zone"}
+      }
+    },
+    "instance": {
+      "allOf": [
+        {"$ref": "#/$defs/metadata"},
+        {"type": "object", "required": ["spawnTransform"],
+          "properties": {"spawnTransform": {"$ref": "#/$defs/transform"}, "game_original": {"type": "object"}}}
+      ]
+    },
+    "approval": {
+      "type": "object", "required": ["objectId", "spawnTransform"], "additionalProperties": false,
+      "properties": {"objectId": {"type": "integer"}, "spawnTransform": {"$ref": "#/$defs/transform"}}
+    },
+    "project": {
+      "type": "object", "required": ["schema", "coordinate_space", "game", "instances"],
+      "not": {"anyOf": [{"required": ["layout_version"]}, {"required": ["origin_x_cm"]}]},
+      "properties": {
+        "schema": {"const": 2}, "coordinate_space": {"const": "game-xyz-cm"},
+        "game": {"type": "object"}, "instances": {"type": "array", "items": {"$ref": "#/$defs/instance"}},
+        "approved_road": {"type": "object", "additionalProperties": {"$ref": "#/$defs/approval"}}
+      }
+    },
+    "receipt": {
+      "type": "object", "required": ["schema", "coordinate_space", "pugc_sha256", "instances"],
+      "not": {"anyOf": [{"required": ["layout_version"]}, {"required": ["origin_x_cm"]}]},
+      "properties": {
+        "schema": {"const": 2}, "coordinate_space": {"const": "game-xyz-cm"}, "pugc_sha256": {"$ref": "#/$defs/hash"},
+        "instances": {"type": "array", "items": {"allOf": [
+          {"$ref": "#/$defs/metadata"},
+          {"not": {"anyOf": [{"required": ["spawnTransform"]}, {"required": ["transform"]}, {"required": ["game_original"]}]}}
+        ]}},
+        "approved_road": {"type": "object", "additionalProperties": {"$ref": "#/$defs/approval"}}
+      }
+    },
+    "triple": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "number"}},
+    "quad": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}},
+    "support": {"enum": ["terrain", "water"]},
+    "fields": {
+      "type": "object", "additionalProperties": false,
+      "not": {"required": ["yaw_deg", "rotation_xyzw"]},
+      "properties": {
+        "objectId": {"type": "integer"}, "assembly": {"$ref": "#/$defs/name"}, "zone": {"$ref": "#/$defs/zone"},
+        "source": {"type": ["string", "null"]}, "role": {"type": ["string", "null"]},
+        "at_cm": {"$ref": "#/$defs/triple"}, "scale": {"$ref": "#/$defs/triple"},
+        "rotation_xyzw": {"$ref": "#/$defs/quad"}, "yaw_deg": {"type": "number"}
+      }
+    },
+    "operation": {
+      "oneOf": [
+        {
+          "type": "object", "required": ["op", "id", "fields"], "additionalProperties": false,
+          "properties": {"op": {"const": "add"}, "id": {"$ref": "#/$defs/name"}, "fields": {
+            "allOf": [{"$ref": "#/$defs/fields"}, {"required": ["objectId", "assembly", "at_cm"]}]
+          }}
+        },
+        {
+          "type": "object", "required": ["op", "id", "fields"], "additionalProperties": false,
+          "properties": {"op": {"const": "update"}, "id": {"$ref": "#/$defs/name"}, "fields": {"$ref": "#/$defs/fields"}}
+        },
+        {
+          "type": "object", "required": ["op", "id"], "additionalProperties": false,
+          "properties": {"op": {"const": "delete"}, "id": {"$ref": "#/$defs/name"}}
+        },
+        {
+          "type": "object", "required": ["op", "id", "support"], "additionalProperties": false,
+          "properties": {"op": {"const": "seat"}, "id": {"$ref": "#/$defs/name"}, "support": {"$ref": "#/$defs/support"}}
+        },
+        {
+          "type": "object", "required": ["op", "id", "anchor_id", "objectId", "assembly", "axis", "gap_cm"],
+          "additionalProperties": false, "not": {"required": ["yaw_deg", "rotation_xyzw"]},
+          "properties": {
+            "op": {"const": "place_relative"}, "id": {"$ref": "#/$defs/name"},
+            "anchor_id": {"$ref": "#/$defs/name"}, "objectId": {"type": "integer"},
+            "assembly": {"$ref": "#/$defs/name"}, "zone": {"$ref": "#/$defs/zone"},
+            "axis": {"enum": ["+X", "-X", "+Y", "-Y"]}, "gap_cm": {"type": "number", "minimum": 0},
+            "support": {"$ref": "#/$defs/support"}, "scale": {"$ref": "#/$defs/triple"},
+            "rotation_xyzw": {"$ref": "#/$defs/quad"}, "yaw_deg": {"type": "number"}
+          }
+        }
+      ]
+    },
+    "edit": {
+      "type": "object", "required": ["schema", "base_sha256", "operations"], "additionalProperties": false,
+      "properties": {
+        "schema": {"const": 1}, "base_sha256": {"$ref": "#/$defs/hash"},
+        "operations": {"type": "array", "items": {"$ref": "#/$defs/operation"}}
+      }
+    },
+    "diagnostic": {
+      "type": "object", "required": ["code", "message", "action", "severity", "path", "field", "instance_id", "object_id"],
+      "properties": {
+        "code": {"type": "string"}, "message": {"type": "string"}, "action": {"type": "string"},
+        "severity": {"enum": ["warning", "error"]}, "path": {"type": ["string", "null"]},
+        "field": {"type": ["string", "null"]}, "instance_id": {"type": ["string", "null"]},
+        "object_id": {"type": ["integer", "null"]}
+      }
+    },
+    "response": {
+      "type": "object", "required": ["schema", "status", "exit_code", "data", "artifacts", "diagnostics"],
+      "properties": {
+        "schema": {"const": 1}, "status": {"enum": ["ok", "error"]},
+        "exit_code": {"enum": [0, 1, 2, 4, 5, 64]},
+        "data": {"type": "object"},
+        "artifacts": {"type": "object", "additionalProperties": {"oneOf": [
+          {"type": "string"}, {"type": "array", "items": {"type": "string"}}
+        ]}},
+        "diagnostics": {"type": "array", "items": {"$ref": "#/$defs/diagnostic"}}
+      }
+    }
+  }
+}

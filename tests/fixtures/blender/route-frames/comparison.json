@@ -1,0 +1,264 @@
+{
+  "pugc_sha256": "4298e804715b0017cfaf6194eff26e9bc84c63a06010b654fa2caffc12c81925",
+  "mode": "geometry",
+  "comparison_frame": "authoring XYZ metres",
+  "source_units_to_authoring_m": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "game_origin_x_cm": 50000,
+  "environment": {
+    "scene_editor_url": "https://plzdntkilmeh.github.io/pugc-editor/scene-editor.html",
+    "island_url": "https://raw.githubusercontent.com/PlzDntKilMeh/pugc-editor/3bd69a10c3ad9ebe8f9aa44964a36784b7bce29b/cache/mod_main_level.glb",
+    "island_sha256": "e72dbad55c8c1499ad899b9e50707a0c657952c60024b94a21043fd15d7540dd",
+    "island_bounds_m": [
+      0,
+      0,
+      1020,
+      1020
+    ],
+    "island_z_range_m": [
+      -204.19,
+      17.31
+    ],
+    "water_bounds_m": [
+      -5000,
+      -5000,
+      6020,
+      6020
+    ],
+    "water_z_m": 0.0,
+    "water_z_source": "scene_editor_grid"
+  },
+  "game_to_authoring": "Reflect world X about the authoring datum, then convert cm to m",
+  "frames": [
+    {
+      "camera": "Approach",
+      "camera_id": "Scene/Approach",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.08579343557357788,
+          -0.9963128566741943,
+          -8.0
+        ],
+        [
+          0.0,
+          0.9963128566741943,
+          -0.08579343557357788,
+          1.7000000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "resolution": [
+        720,
+        405
+      ],
+      "fov_xy_deg": [
+        58.71550672076532,
+        35.11539344414144
+      ],
+      "projection": "PERSP",
+      "clip_m": [
+        0.10000000149011612,
+        1000.0
+      ],
+      "lens_mm": 32.0,
+      "sensor_fit": "HORIZONTAL",
+      "pixel_aspect": [
+        1.0,
+        1.0
+      ],
+      "shift": [
+        0.0,
+        0.0
+      ],
+      "source": "01-source.png",
+      "result": "01-result.png",
+      "landmarks": [
+        {
+          "landmark": "Tower",
+          "camera": "Approach",
+          "source": {
+            "side": "left",
+            "visible": true,
+            "projection": [
+              0.10989151895046234,
+              0.6630257964134216
+            ],
+            "center_m": [
+              -8.0,
+              10.0,
+              5.137499809265137
+            ]
+          },
+          "result": {
+            "side": "left",
+            "visible": true,
+            "projection": [
+              0.10975311696529388,
+              0.6565731763839722
+            ],
+            "center_m": [
+              -8.0,
+              10.0,
+              5.062149524688721
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "camera": "Alongside",
+      "camera_id": "Scene/Alongside",
+      "matrix_world": [
+        [
+          0.9316545128822327,
+          0.06009316071867943,
+          0.3583415448665619,
+          0.4000000059604645
+        ],
+        [
+          0.36334535479545593,
+          -0.1540849208831787,
+          -0.9188242554664612,
+          1.0
+        ],
+        [
+          -2.499001006128765e-08,
+          0.9862284064292908,
+          -0.16538849472999573,
+          1.7000000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "resolution": [
+        720,
+        405
+      ],
+      "fov_xy_deg": [
+        58.71550672076532,
+        35.11539344414144
+      ],
+      "projection": "PERSP",
+      "clip_m": [
+        0.10000000149011612,
+        1000.0
+      ],
+      "lens_mm": 32.0,
+      "sensor_fit": "HORIZONTAL",
+      "pixel_aspect": [
+        1.0,
+        1.0
+      ],
+      "shift": [
+        0.0,
+        0.0
+      ],
+      "source": "02-source.png",
+      "result": "02-result.png",
+      "landmarks": [
+        {
+          "landmark": "Tower",
+          "camera": "Alongside",
+          "source": {
+            "side": "left",
+            "visible": true,
+            "projection": [
+              0.15820497274398804,
+              0.6998799443244934
+            ],
+            "center_m": [
+              -8.0,
+              10.0,
+              5.137499809265137
+            ]
+          },
+          "result": {
+            "side": "left",
+            "visible": true,
+            "projection": [
+              0.15784507989883423,
+              0.6901684403419495
+            ],
+            "center_m": [
+              -8.0,
+              10.0,
+              5.062149524688721
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "source_materials": [],
+  "result_materials": [],
+  "missing_meshes": [],
+  "geometry_check": {
+    "schema": 1,
+    "strict": true,
+    "status": "complete",
+    "checks": {
+      "instances": {
+        "status": "checked",
+        "expected": 12,
+        "checked": 12,
+        "missing": [],
+        "findings": 0
+      },
+      "cameras": {
+        "status": "checked",
+        "expected": 2,
+        "checked": 2,
+        "missing": [],
+        "findings": 0
+      },
+      "landmarks": {
+        "status": "checked",
+        "expected": 2,
+        "checked": 2,
+        "missing": [],
+        "findings": 0
+      }
+    }
+  }
+}

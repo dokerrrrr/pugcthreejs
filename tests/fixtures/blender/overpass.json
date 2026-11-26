@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "layout_version": 2,
+  "origin_x_cm": 50000,
+  "game": {
+    "name": "Overpass visibility fixture",
+    "dataVersion": 3,
+    "buildVersion": "2608.1.1",
+    "editFileData": {
+      "createAccountId": "",
+      "createTime": 1795650703,
+      "lastModifierAccountId": "",
+      "lastModifiedTime": 1795650703,
+      "editPlayers": [],
+      "lastHostPlayerData": null
+    },
+    "creatorData": {
+      "name": "Overpass visibility fixture",
+      "description": "",
+      "mainTagId": "MainTag_None",
+      "subTagIds": [],
+      "versionMajor": 1,
+      "versionMinor": 0,
+      "ownerAccountId": "",
+      "ownerNickName": ""
+    },
+    "deviceEventList": [],
+    "userSelectableData": {
+      "modUserSelectPlayType": "NONE"
+    },
+    "roundRuleData": {},
+    "characterRuleData": {},
+    "gameRuleData": {}
+  },
+  "instances": [
+    {
+      "id": "deck",
+      "objectId": 16197,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -600,
+          "z": 600
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "assembly": "Deck",
+      "zone": "road"
+    },
+    {
+      "id": "lower-lane",
+      "objectId": 13003,
+      "transform": {
+        "translation": {
+          "x": 200,
+          "y": 700,
+          "z": -17.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 9.15,
+          "y": 4.55,
+          "z": 2.6
+        }
+      },
+      "assembly": "Lower lane",
+      "zone": "shoulder",
+      "source": "Lower road",
+      "role": "route",
+      "gameplay": true
+    },
+    {
+      "id": "support-a",
+      "objectId": 16180,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 100,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 0.4
+        }
+      },
+      "assembly": "Supports",
+      "zone": "near",
+      "role": "support"
+    },
+    {
+      "id": "support-b",
+      "objectId": 16180,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 700,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 0.4
+        }
+      },
+      "assembly": "Supports",
+      "zone": "near",
+      "role": "support"
+    },
+    {
+      "id": "tire-inside",
+      "objectId": 16087,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 100,
+          "z": 170.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "assembly": "Tires",
+      "zone": "near",
+      "role": "decor",
+      "gameplay": false
+    },
+    {
+      "id": "tire-visible",
+      "objectId": 16087,
+      "transform": {
+        "translation": {
+          "x": 300,
+          "y": 700,
+          "z": 70.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "assembly": "Tires",
+      "zone": "near",
+      "role": "decor",
+      "gameplay": false
+    }
+  ],
+  "approved_road": {
+    "deck": {
+      "objectId": 16197,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -600,
+          "z": 600
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.7071067811865475,
+          "w": 0.7071067811865476
+        },
+        "scale3D": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  },
+  "opaque_instances": [
+    "support-a",
+    "support-b",
+    "lower-lane"
+  ],
+  "landmarks": [
+    {
+      "name": "Visible tire",
+      "source": [
+        "Visible tire"
+      ],
+      "result": [
+        "tire-visible"
+      ],
+      "cameras": [
+        "Lower drive"
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "name": "Upper approach",
+      "route": "upper",
+      "at_m": [
+        0,
+        -3,
+        7.7
+      ]
+    },
+    {
+      "name": "Neighboring branch",
+      "route": "neighbor",
+      "at_m": [
+        -9,
+        7,
+        4.5
+      ]
+    },
+    {
+      "name": "Lower road",
+      "route": "lower",
+      "at_m": [
+        8,
+        7,
+        1.7
+      ]
+    }
+  ]
+}

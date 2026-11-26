@@ -1,0 +1,3011 @@
+{
+ "12001": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_BrickWall02_KTH_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.363,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_Wall_02_D.webp",
+     "score": 0.363
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_Wall_01_D.webp",
+     "score": 0.333
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/bricks_02_dif.webp",
+     "score": 0.306
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_ConcreteWall02_KTH_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.433,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Concrete_Wall_02_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_01_D.webp",
+     "score": 0.433
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Crack_Broken_Wall_03_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.45,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Storage_Wall_03_D.webp",
+     "score": 0.45
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.442
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/DesOBJ/Textures/T_Broken_Pot_03_D.webp",
+     "score": 0.436
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Bricks_Set_01c_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Brick_Set_01_D.webp",
+   "confidence": 0.682,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Brick_Set_01_D.webp",
+     "score": 0.682
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Brick_Set_02_D.webp",
+     "score": 0.655
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Kitchen_Set_01_D.webp",
+     "score": 0.582
+    }
+   ]
+  }
+ ],
+ "12002": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_BrickWall02_KTH_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.363,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_Wall_02_D.webp",
+     "score": 0.363
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_Wall_01_D.webp",
+     "score": 0.333
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/bricks_02_dif.webp",
+     "score": 0.306
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_ConcreteWall02_KTH_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.433,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Concrete_Wall_02_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_01_D.webp",
+     "score": 0.433
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Crack_Broken_Wall_03_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.45,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Storage_Wall_03_D.webp",
+     "score": 0.45
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.442
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/DesOBJ/Textures/T_Broken_Pot_03_D.webp",
+     "score": 0.436
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Bricks_Set_01c_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Brick_Set_01_D.webp",
+   "confidence": 0.682,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Brick_Set_01_D.webp",
+     "score": 0.682
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Brick_Set_02_D.webp",
+     "score": 0.655
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Kitchen_Set_01_D.webp",
+     "score": 0.582
+    }
+   ]
+  }
+ ],
+ "12005": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_ConcreteWall02_KTH_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.433,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Concrete_Wall_02_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_01_D.webp",
+     "score": 0.433
+    }
+   ]
+  }
+ ],
+ "12012": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.653
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_03_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.706,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A_03.webp",
+     "score": 0.676
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_04_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A_03.webp",
+     "score": 0.648
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_brick_02_basecolor.webp",
+     "score": 0.658
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_grout_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+   "confidence": 0.571,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.571
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.562
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_02_D.webp",
+     "score": 0.54
+    }
+   ]
+  }
+ ],
+ "12013": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.653
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_03_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.706,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A_03.webp",
+     "score": 0.676
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_04_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A_03.webp",
+     "score": 0.648
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_brick_02_basecolor.webp",
+     "score": 0.658
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_grout_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+   "confidence": 0.571,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.571
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.562
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_02_D.webp",
+     "score": 0.54
+    }
+   ]
+  }
+ ],
+ "12014": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.653
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_04_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A_03.webp",
+     "score": 0.648
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_03_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.706,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A_03.webp",
+     "score": 0.676
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_brick_02_basecolor.webp",
+     "score": 0.658
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_grout_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+   "confidence": 0.571,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.571
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.562
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_02_D.webp",
+     "score": 0.54
+    }
+   ]
+  }
+ ],
+ "12015": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_Brick_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+   "confidence": 0.677,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Brick_03_A.webp",
+     "score": 0.677
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Brick_D_a.webp",
+     "score": 0.657
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.653
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_brick04_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.377,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/brick_04_basecolor.webp",
+     "score": 0.377
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Decal/Bricks_a.webp",
+     "score": 0.371
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Decal/bricksb_D.webp",
+     "score": 0.355
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_brick03_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.377,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/brick_03_basecolor.webp",
+     "score": 0.377
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Kiki/Buildings/Textures/T_Kiki_Brick_03_A.webp",
+     "score": 0.371
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Decal/Bricks_a.webp",
+     "score": 0.371
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_brick02_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.4,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/bricks_02_dif.webp",
+     "score": 0.4
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/bricks_12_D.webp",
+     "score": 0.379
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Decal/Bricks_a.webp",
+     "score": 0.371
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_brick05_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.371,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Decal/Bricks_a.webp",
+     "score": 0.371
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Decal/bricksb_D.webp",
+     "score": 0.355
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/bricks_02_dif.webp",
+     "score": 0.35
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_grout_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.43,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_grout_color.webp",
+     "score": 0.43
+    }
+   ]
+  }
+ ],
+ "12016": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Bootcamp_CoverWalls_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_Bootcamp_CoverWall_A.webp",
+   "confidence": 0.95,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_Bootcamp_CoverWall_A.webp",
+     "score": 0.95
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_Bootcamp_CoverWall_A_dirty.webp",
+     "score": 0.623
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_T_Bootcamp_Coverwall_02_A.webp",
+     "score": 0.611
+    }
+   ]
+  }
+ ],
+ "12017": [
+  {
+   "source_material": "TslGame/Content/Assets/World/Common/Materials/Savage/Bootcamp_CoverWalls/MI_Bootcamp_CoverWalls_4",
+   "diffuse_guess": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_T_Bootcamp_Coverwall_02_A.webp",
+   "confidence": 0.95,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_T_Bootcamp_Coverwall_02_A.webp",
+     "score": 0.95
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_Bootcamp_CoverWall_A.webp",
+     "score": 0.69
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_Bootcamp_CoverWall_A_dirty.webp",
+     "score": 0.596
+    }
+   ]
+  }
+ ],
+ "12023": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_dome_concrete_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Concrete_02_D.webp",
+   "confidence": 0.63,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Concrete_02_D.webp",
+     "score": 0.63
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_01_D.webp",
+     "score": 0.584
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Desert_Concrete_02_A.webp",
+     "score": 0.581
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Dome_Concrete_06_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Concrete_02_D.webp",
+   "confidence": 0.596,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Concrete_02_D.webp",
+     "score": 0.596
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_01_D.webp",
+     "score": 0.584
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Chimera/Buildings/Textures/Lab/T_Chimera_Lab_Dome_Concrete_04_BC.webp",
+     "score": 0.567
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Dome_ExtEdgeDecal1_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.432,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Blueprints/Buildings/UniqueThemes/Observatory/texture/T_Dome_Poster_vertical_01_D.webp",
+     "score": 0.432
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Blueprints/Buildings/UniqueThemes/Observatory/texture/T_Dome_metal_panel_D.webp",
+     "score": 0.428
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Blueprints/Buildings/UniqueThemes/Observatory/texture/T_Dome_telescope_small_D.webp",
+     "score": 0.427
+    }
+   ]
+  }
+ ],
+ "12024": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Concrete_Fence_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+   "confidence": 0.93,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+     "score": 0.93
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_01.webp",
+     "score": 0.721
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Concrete_A_D.webp",
+     "score": 0.684
+    }
+   ]
+  }
+ ],
+ "12025": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Concrete_Fence_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+   "confidence": 0.93,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+     "score": 0.93
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_01.webp",
+     "score": 0.721
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Concrete_A_D.webp",
+     "score": 0.684
+    }
+   ]
+  }
+ ],
+ "12026": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteFence_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+   "confidence": 0.655,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+     "score": 0.655
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_01.webp",
+     "score": 0.615
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_02_A.webp",
+     "score": 0.594
+    }
+   ]
+  }
+ ],
+ "12027": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteFence_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+   "confidence": 0.655,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+     "score": 0.655
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_01.webp",
+     "score": 0.615
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_02_A.webp",
+     "score": 0.594
+    }
+   ]
+  }
+ ],
+ "12028": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteFence_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+   "confidence": 0.655,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+     "score": 0.655
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_01.webp",
+     "score": 0.615
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Concrete_02_A.webp",
+     "score": 0.594
+    }
+   ]
+  }
+ ],
+ "12039": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_City_Residential_03_trimStone_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.433,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Props/Textures/T_Tiger_residential_stove_01_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Props/Textures/T_Tiger_residential_thermostat_01_D.webp",
+     "score": 0.425
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Props/Textures/T_Prison_Residential_01_Props_BC.webp",
+     "score": 0.422
+    }
+   ]
+  }
+ ],
+ "12040": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_City_Residential_03_trimStone_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.433,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Props/Textures/T_Tiger_residential_stove_01_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Props/Textures/T_Tiger_residential_thermostat_01_D.webp",
+     "score": 0.425
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Props/Textures/T_Prison_Residential_01_Props_BC.webp",
+     "score": 0.422
+    }
+   ]
+  }
+ ],
+ "12042": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Chimera_Fence_Metal_Modules_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Chimera/Props/Textures/T_Chimera_Fence_D.webp",
+   "confidence": 0.581,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Chimera/Props/Textures/T_Chimera_Fence_D.webp",
+     "score": 0.581
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Chimera/Props/Textures/T_Chimera_LocalFenceMetalRust_D.webp",
+     "score": 0.489
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Chimera/Buildings/Textures/Lab/T_Chimera_Lab_Dome_Metal_05_BC.webp",
+     "score": 0.479
+    }
+   ]
+  }
+ ],
+ "12048": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_01_D.webp",
+   "confidence": 0.675,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_01_D.webp",
+     "score": 0.675
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_02_D.webp",
+     "score": 0.642
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Fence/T_NE_BambooFence_01_D.webp",
+     "score": 0.519
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_02_D.webp",
+   "confidence": 0.675,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_02_D.webp",
+     "score": 0.675
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_01_D.webp",
+     "score": 0.642
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_StoneFence_02_D.webp",
+     "score": 0.529
+    }
+   ]
+  }
+ ],
+ "12049": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_02_D.webp",
+   "confidence": 0.675,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_02_D.webp",
+     "score": 0.675
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_CementFence_01_D.webp",
+     "score": 0.642
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_StoneFence_02_D.webp",
+     "score": 0.529
+    }
+   ]
+  }
+ ],
+ "12052": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_Concrete_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+   "confidence": 0.919,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+     "score": 0.919
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Heaven/Buildings/Textures/T_Heaven_Concrete_01_A.webp",
+     "score": 0.54
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_MI_NE_Fence_MergedFence_D_01.webp",
+     "score": 0.536
+    }
+   ]
+  }
+ ],
+ "12053": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_Concrete_01_Destroy_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+   "confidence": 0.773,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+     "score": 0.773
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Concrete_Fence_01_D.webp",
+     "score": 0.465
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Heaven/Buildings/Textures/T_Heaven_Concrete_01_A.webp",
+     "score": 0.455
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_Concrete_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+   "confidence": 0.919,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+     "score": 0.919
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Heaven/Buildings/Textures/T_Heaven_Concrete_01_A.webp",
+     "score": 0.54
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_MI_NE_Fence_MergedFence_D_01.webp",
+     "score": 0.536
+    }
+   ]
+  }
+ ],
+ "12059": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Brick_00_Bricks_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+   "confidence": 0.646,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.646
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Brick_03_D.webp",
+     "score": 0.511
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Brick_02_D.webp",
+     "score": 0.511
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Brick_00_Trim_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+   "confidence": 0.663,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.663
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Brick_03_D.webp",
+     "score": 0.527
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Brick_02_D.webp",
+     "score": 0.527
+    }
+   ]
+  }
+ ],
+ "12062": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/HighwayBarrier_Inst_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World_Desert/Desert_Beauty/DesertTown/Textures/HighwayBarrier_A.webp",
+   "confidence": 0.651,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World_Desert/Desert_Beauty/DesertTown/Textures/HighwayBarrier_A.webp",
+     "score": 0.651
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Barrier_D.webp",
+     "score": 0.306
+    }
+   ]
+  }
+ ],
+ "12063": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/HighwayBarrier_Inst_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World_Desert/Desert_Beauty/DesertTown/Textures/HighwayBarrier_A.webp",
+   "confidence": 0.651,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World_Desert/Desert_Beauty/DesertTown/Textures/HighwayBarrier_A.webp",
+     "score": 0.651
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Barrier_D.webp",
+     "score": 0.306
+    }
+   ]
+  }
+ ],
+ "12064": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/HighwayBarrier_Inst_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World_Desert/Desert_Beauty/DesertTown/Textures/HighwayBarrier_A.webp",
+   "confidence": 0.651,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World_Desert/Desert_Beauty/DesertTown/Textures/HighwayBarrier_A.webp",
+     "score": 0.651
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Barrier_D.webp",
+     "score": 0.306
+    }
+   ]
+  }
+ ],
+ "12067": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_Wood_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+   "confidence": 0.87,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+     "score": 0.87
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/T_Wood_02_D.webp",
+     "score": 0.525
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Wood_A_03_D.webp",
+     "score": 0.5
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_EdgeDecal_01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.451,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+     "score": 0.451
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Decal/Decal01.webp",
+     "score": 0.314
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Decal/Decal05.webp",
+     "score": 0.269
+    }
+   ]
+  }
+ ],
+ "12068": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_Wood_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+   "confidence": 0.87,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+     "score": 0.87
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/T_Wood_02_D.webp",
+     "score": 0.525
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Wood_A_03_D.webp",
+     "score": 0.5
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_EdgeDecal_01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.451,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+     "score": 0.451
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Decal/Decal01.webp",
+     "score": 0.314
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Decal/Decal05.webp",
+     "score": 0.269
+    }
+   ]
+  }
+ ],
+ "12069": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_Wood_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+   "confidence": 0.87,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+     "score": 0.87
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/T_Wood_02_D.webp",
+     "score": 0.525
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Wood_A_03_D.webp",
+     "score": 0.5
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_EdgeDecal_01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.451,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/DihorOtok_S7/Buildings/Textures/T_VS7_Wood_01_D.webp",
+     "score": 0.451
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Decal/Decal01.webp",
+     "score": 0.314
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Decal/Decal05.webp",
+     "score": 0.269
+    }
+   ]
+  }
+ ],
+ "12073": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_Stone_02_StoneWall_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_StoneWall_D.webp",
+   "confidence": 0.937,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_StoneWall_D.webp",
+     "score": 0.937
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_Trim_D.webp",
+     "score": 0.666
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/T_NE_StoneWall_01_A.webp",
+     "score": 0.408
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_Stone_02_Trim_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_Trim_D.webp",
+   "confidence": 0.925,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_Trim_D.webp",
+     "score": 0.925
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_StoneWall_D.webp",
+     "score": 0.666
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Buildings/Textures/Decals/T_VK_OB_LineMarkings_Trim_A.webp",
+     "score": 0.411
+    }
+   ]
+  }
+ ],
+ "12074": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_Stone_02_StoneWall_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_StoneWall_D.webp",
+   "confidence": 0.937,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_StoneWall_D.webp",
+     "score": 0.937
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_Trim_D.webp",
+     "score": 0.666
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/T_NE_StoneWall_01_A.webp",
+     "score": 0.408
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_Stone_02_Trim_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_Trim_D.webp",
+   "confidence": 0.925,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_Trim_D.webp",
+     "score": 0.925
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Props/Textures/T_VK_Fence_Stone_02_StoneWall_D.webp",
+     "score": 0.666
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Vikendi/Buildings/Textures/Decals/T_VK_OB_LineMarkings_Trim_A.webp",
+     "score": 0.411
+    }
+   ]
+  }
+ ],
+ "12082": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+   "confidence": 0.717,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.717
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Upper_01_D.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_02_D.webp",
+     "score": 0.687
+    }
+   ]
+  }
+ ],
+ "12083": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+   "confidence": 0.717,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.717
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Upper_01_D.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_02_D.webp",
+     "score": 0.687
+    }
+   ]
+  }
+ ],
+ "12084": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+   "confidence": 0.717,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.717
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Upper_01_D.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_02_D.webp",
+     "score": 0.687
+    }
+   ]
+  }
+ ],
+ "12085": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ruins_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+   "confidence": 0.717,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_01_D.webp",
+     "score": 0.717
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Upper_01_D.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Unique/Textures/Ruins/T_Baltic_Ruins_Base_02_D.webp",
+     "score": 0.687
+    }
+   ]
+  }
+ ],
+ "12088": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_DirtDecal_Dark_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Decals/Textures/T_Baltic_DirtDecal.webp",
+   "confidence": 0.717,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Decals/Textures/T_Baltic_DirtDecal.webp",
+     "score": 0.717
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Decals/Textures/T_Baltic_DirtDecalDark.webp",
+     "score": 0.641
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/Trims_Kits/T_Baltic_ExteriorDecals01_A.webp",
+     "score": 0.488
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Trim_Metal_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Metal_D.webp",
+   "confidence": 0.885,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Metal_D.webp",
+     "score": 0.885
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Trim_Metal_02_D.webp",
+     "score": 0.597
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Trim_Metal_01_D.webp",
+     "score": 0.597
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Kiki_Downtown_Skyscraper_02_WoodPanels_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.375,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Kiki/Buildings/Textures/T_Kiki_DamConcrete02_A.webp",
+     "score": 0.375
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Kiki/Props/Common/Fence_Iron/T_Kiki_IronFence_01_A.webp",
+     "score": 0.359
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Kiki/Props/Common/Vents/T_Kiki_Vents_01_A.webp",
+     "score": 0.334
+    }
+   ]
+  }
+ ],
+ "12091": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Church_Wood_Mat_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/Church_Wood_a_D.webp",
+   "confidence": 0.739,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Church_Wood_a_D.webp",
+     "score": 0.739
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/T_Wood_A_D.webp",
+     "score": 0.43
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/ABChurchWood_D.webp",
+     "score": 0.409
+    }
+   ]
+  }
+ ],
+ "12093": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Barriers_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Common/Textures/Baltic_prp_barriers_a.webp",
+   "confidence": 0.729,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Common/Textures/Baltic_prp_barriers_a.webp",
+     "score": 0.729
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_papers.webp",
+     "score": 0.537
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/Baltic_Debris01_D.webp",
+     "score": 0.527
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_WallPaper_02_HouseDestroyed_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.442,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/T_WallPaper_11b_D.webp",
+     "score": 0.442
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Wallpaper_04_D.webp",
+     "score": 0.43
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_T_WallPaper_06_D.webp",
+     "score": 0.418
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_TileConcreteDecal_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.367,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_ConcreteDamage_A.webp",
+     "score": 0.367
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/T_ConcreteDamage_BC.webp",
+     "score": 0.358
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.349
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_ConcreteBorder_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.457,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/ConcreteBarrier_a.webp",
+     "score": 0.457
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Concrete_Barrier_02_A.webp",
+     "score": 0.412
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_ConcreteDamage_A.webp",
+     "score": 0.397
+    }
+   ]
+  }
+ ],
+ "12099": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Block_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+   "confidence": 0.642,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+     "score": 0.642
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.543
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Foliage/Rocks/Tiger_riverRock/Textures/T_Tiger_River_Rock_01_D.webp",
+     "score": 0.468
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Blocks_IND_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+   "confidence": 0.692,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+     "score": 0.692
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.492
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Foliage/Rocks/Tiger_riverRock/Textures/T_Tiger_River_Rock_01_D.webp",
+     "score": 0.425
+    }
+   ]
+  }
+ ],
+ "12100": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Blocks_IND_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+   "confidence": 0.692,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+     "score": 0.692
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.492
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Foliage/Rocks/Tiger_riverRock/Textures/T_Tiger_River_Rock_01_D.webp",
+     "score": 0.425
+    }
+   ]
+  }
+ ],
+ "12102": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Block_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+   "confidence": 0.642,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+     "score": 0.642
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.543
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Foliage/Rocks/Tiger_riverRock/Textures/T_Tiger_River_Rock_01_D.webp",
+     "score": 0.468
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_City_CommercialMedium_01_A_Int_ceilings1_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.372,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_City_Commercial_Interior_Floor_02_D.webp",
+     "score": 0.372
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_City_Commercial_Interior_Floor_01_D.webp",
+     "score": 0.358
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_City_Commercial_Interior_Hallway_01_D.webp",
+     "score": 0.35
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Blocks_IND_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+   "confidence": 0.692,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+     "score": 0.692
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.492
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Foliage/Rocks/Tiger_riverRock/Textures/T_Tiger_River_Rock_01_D.webp",
+     "score": 0.425
+    }
+   ]
+  }
+ ],
+ "12103": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Block_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+   "confidence": 0.642,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+     "score": 0.642
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.543
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Foliage/Rocks/Tiger_riverRock/Textures/T_Tiger_River_Rock_01_D.webp",
+     "score": 0.468
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Blocks_IND_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+   "confidence": 0.692,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Cinder_Blocks_01_D.webp",
+     "score": 0.692
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Fence_Brick_02_a1_D.webp",
+     "score": 0.492
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Foliage/Rocks/Tiger_riverRock/Textures/T_Tiger_River_Rock_01_D.webp",
+     "score": 0.425
+    }
+   ]
+  }
+ ],
+ "13001": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiles_destroyed02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/tiles_destroyed_02_D.webp",
+   "confidence": 0.661,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/tiles_destroyed_02_D.webp",
+     "score": 0.661
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Roof_02b_D.webp",
+     "score": 0.41
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Sidewalk_02_D.webp",
+     "score": 0.405
+    }
+   ]
+  }
+ ],
+ "13002": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiles_destroyed02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/tiles_destroyed_02_D.webp",
+   "confidence": 0.661,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/tiles_destroyed_02_D.webp",
+     "score": 0.661
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Roof_02b_D.webp",
+     "score": 0.41
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Sidewalk_02_D.webp",
+     "score": 0.405
+    }
+   ]
+  }
+ ],
+ "13003": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Bootcamp_Plates_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_Plates_A.webp",
+   "confidence": 0.95,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_Plates_A.webp",
+     "score": 0.95
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_Catwalk_A.webp",
+     "score": 0.517
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_Barrier_A.webp",
+     "score": 0.517
+    }
+   ]
+  }
+ ],
+ "13004": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ShootingRange_Floor_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+   "confidence": 0.673,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+     "score": 0.673
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Floor_01_A.webp",
+     "score": 0.633
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Concrete_floor_01_D.webp",
+     "score": 0.601
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ShootingRange_Floor_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+   "confidence": 0.652,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+     "score": 0.652
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Floor_01_A.webp",
+     "score": 0.608
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Concrete_floor_01_D.webp",
+     "score": 0.58
+    }
+   ]
+  }
+ ],
+ "13005": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ShootingRange_Floor_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+   "confidence": 0.673,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+     "score": 0.673
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Floor_01_A.webp",
+     "score": 0.633
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Concrete_floor_01_D.webp",
+     "score": 0.601
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ShootingRange_Floor_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+   "confidence": 0.652,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Storage_Floor_01_D.webp",
+     "score": 0.652
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Floor_01_A.webp",
+     "score": 0.608
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_Concrete_floor_01_D.webp",
+     "score": 0.58
+    }
+   ]
+  }
+ ],
+ "13008": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_Pile_CementbagPile_03_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Deco_Pile_CementbagPile_D_02.webp",
+   "confidence": 0.902,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Deco_Pile_CementbagPile_D_02.webp",
+     "score": 0.902
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Deco_Pile_CementbagPile_D_01.webp",
+     "score": 0.902
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Deco_WaterTank_D_01.webp",
+     "score": 0.414
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_Farm_Site_Foor_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.455,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Deco_WaterTank_D_01.webp",
+     "score": 0.455
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Deco_Pile_CementbagPile_D_02.webp",
+     "score": 0.364
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Deco_Pile_CementbagPile_D_01.webp",
+     "score": 0.364
+    }
+   ]
+  }
+ ],
+ "13010": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Sidewalk_04_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.503,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/T_NE_StoneWall_01_A.webp",
+     "score": 0.503
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Sidewalk_02_D.webp",
+     "score": 0.49
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Sidewalk_01_D.webp",
+     "score": 0.49
+    }
+   ]
+  }
+ ],
+ "13011": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Sidewalk_04_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.503,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/T_NE_StoneWall_01_A.webp",
+     "score": 0.503
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Sidewalk_02_D.webp",
+     "score": 0.49
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/DihorOtok/T_DO_Tiles_Sidewalk_01_D.webp",
+     "score": 0.49
+    }
+   ]
+  }
+ ],
+ "13015": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Church_Wood_Mat_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/Church_Wood_a_D.webp",
+   "confidence": 0.739,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Church_Wood_a_D.webp",
+     "score": 0.739
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/T_Wood_A_D.webp",
+     "score": 0.43
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/ABChurchWood_D.webp",
+     "score": 0.409
+    }
+   ]
+  }
+ ],
+ "13016": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Church_Wood_Mat_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/Church_Wood_a_D.webp",
+   "confidence": 0.739,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Church_Wood_a_D.webp",
+     "score": 0.739
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/T_Wood_A_D.webp",
+     "score": 0.43
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/ABChurchWood_D.webp",
+     "score": 0.409
+    }
+   ]
+  }
+ ],
+ "14008": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Town_Residential_02_Wood_Planks_Indoor_02_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.433,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_T_Town_A_wood04_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_T_Town_A_wood03_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Savage/Indoor/Baltic_Savage_Wood_Floor_02_A.webp",
+     "score": 0.432
+    }
+   ]
+  }
+ ],
+ "14009": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Stair_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_Stair_D.webp",
+   "confidence": 0.907,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_Stair_D.webp",
+     "score": 0.907
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_Yugarden_Frame_D.webp",
+     "score": 0.608
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_FloorSide_D.webp",
+     "score": 0.599
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Floor_Side_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_FloorSide_D.webp",
+   "confidence": 0.701,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_FloorSide_D.webp",
+     "score": 0.701
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_Yugarden_Frame_D.webp",
+     "score": 0.583
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_Stair_D.webp",
+     "score": 0.555
+    }
+   ]
+  }
+ ],
+ "14010": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteAddon02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteSectioned_A.webp",
+   "confidence": 0.578,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteSectioned_A.webp",
+     "score": 0.578
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteEdgeDecal_01_A.webp",
+     "score": 0.557
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteLooping_A.webp",
+     "score": 0.55
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteEdgeDecal_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteEdgeDecal_01_A.webp",
+   "confidence": 0.913,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteEdgeDecal_01_A.webp",
+     "score": 0.913
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteSectioned_A.webp",
+     "score": 0.564
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteLooping_A.webp",
+     "score": 0.557
+    }
+   ]
+  }
+ ],
+ "14011": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_Bridge00_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Common/Textures/Savage/Bridges/Savage_Bridge_01_D.webp",
+   "confidence": 0.617,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bridges/Savage_Bridge_01_D.webp",
+     "score": 0.617
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Indoor/T_Savage_BootFloor02_A.webp",
+     "score": 0.465
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Indoor/T_Savage_BootFloor01_A.webp",
+     "score": 0.465
+    }
+   ]
+  }
+ ],
+ "14014": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Corrugated_Metal_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Miramar/Props/Common/Textures/Lynx_Corrugated_Metal_01/T_Lynx_Corrugated_Metal_01_A.webp",
+   "confidence": 0.93,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Miramar/Props/Common/Textures/Lynx_Corrugated_Metal_01/T_Lynx_Corrugated_Metal_01_A.webp",
+     "score": 0.93
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Corrugated_Metal_02.webp",
+     "score": 0.711
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/Lion/T_Lion_Corrugated_Metal_01_A.webp",
+     "score": 0.709
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Detail_a_Mat_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+   "confidence": 0.736,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+     "score": 0.736
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_d_D.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_c_D.webp",
+     "score": 0.648
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Floor_a_Mat1_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.521,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Door_a_D.webp",
+     "score": 0.521
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+     "score": 0.442
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Decal_a.webp",
+     "score": 0.436
+    }
+   ]
+  }
+ ],
+ "14015": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Detail_a_Mat_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+   "confidence": 0.736,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+     "score": 0.736
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_d_D.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_c_D.webp",
+     "score": 0.648
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Corrugated_Metal_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Miramar/Props/Common/Textures/Lynx_Corrugated_Metal_01/T_Lynx_Corrugated_Metal_01_A.webp",
+   "confidence": 0.93,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Miramar/Props/Common/Textures/Lynx_Corrugated_Metal_01/T_Lynx_Corrugated_Metal_01_A.webp",
+     "score": 0.93
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Corrugated_Metal_02.webp",
+     "score": 0.711
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/Lion/T_Lion_Corrugated_Metal_01_A.webp",
+     "score": 0.709
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Floor_a_Mat_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.531,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Door_a_D.webp",
+     "score": 0.531
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+     "score": 0.45
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Decal_a.webp",
+     "score": 0.445
+    }
+   ]
+  }
+ ],
+ "14016": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Corrugated_Metal_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Miramar/Props/Common/Textures/Lynx_Corrugated_Metal_01/T_Lynx_Corrugated_Metal_01_A.webp",
+   "confidence": 0.93,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Miramar/Props/Common/Textures/Lynx_Corrugated_Metal_01/T_Lynx_Corrugated_Metal_01_A.webp",
+     "score": 0.93
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Corrugated_Metal_02.webp",
+     "score": 0.711
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/Lion/T_Lion_Corrugated_Metal_01_A.webp",
+     "score": 0.709
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Detail_a_Mat_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+   "confidence": 0.736,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+     "score": 0.736
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_d_D.webp",
+     "score": 0.706
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_c_D.webp",
+     "score": 0.648
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Floor_a_Mat_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.531,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Door_a_D.webp",
+     "score": 0.531
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Detail_a_D.webp",
+     "score": 0.45
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/SilverM_Decal_a.webp",
+     "score": 0.445
+    }
+   ]
+  }
+ ],
+ "14018": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Trim_Wood1_Inst_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Wood_D.webp",
+   "confidence": 0.585,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Wood_D.webp",
+     "score": 0.585
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Metal_D.webp",
+     "score": 0.44
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/Unique/Opera/T_NE_Opera_Trim_A_BC.webp",
+     "score": 0.419
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Trim_Wood_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Wood_D.webp",
+   "confidence": 0.878,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Wood_D.webp",
+     "score": 0.878
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Metal_D.webp",
+     "score": 0.53
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/Unique/Opera/T_NE_Opera_Trim_A_BC.webp",
+     "score": 0.5
+    }
+   ]
+  }
+ ],
+ "14019": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Trim_Wood_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Wood_D.webp",
+   "confidence": 0.878,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Wood_D.webp",
+     "score": 0.878
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Metal_D.webp",
+     "score": 0.53
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/Unique/Opera/T_NE_Opera_Trim_A_BC.webp",
+     "score": 0.5
+    }
+   ]
+  }
+ ],
+ "14020": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Stair_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_Stair_D.webp",
+   "confidence": 0.907,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_Stair_D.webp",
+     "score": 0.907
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_Yugarden_Frame_D.webp",
+     "score": 0.608
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_FloorSide_D.webp",
+     "score": 0.599
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Floor_Side_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_FloorSide_D.webp",
+   "confidence": 0.701,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_FloorSide_D.webp",
+     "score": 0.701
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_Yugarden_Frame_D.webp",
+     "score": 0.583
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/YuGarden/T_NE_YuGarden_Stair_D.webp",
+     "score": 0.555
+    }
+   ]
+  }
+ ],
+ "14021": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_HS_Old_Bridge_M_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_02_D.webp",
+   "confidence": 0.876,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_02_D.webp",
+     "score": 0.876
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_01_D.webp",
+     "score": 0.876
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_Town_Bridge_L_02_D.webp",
+     "score": 0.492
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_HS_Old_Bridge_M_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_01_D.webp",
+   "confidence": 0.922,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_01_D.webp",
+     "score": 0.922
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_02_D.webp",
+     "score": 0.896
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_Town_Bridge_L_02_D.webp",
+     "score": 0.523
+    }
+   ]
+  }
+ ],
+ "14022": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_L_CSBridge_03_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_03_D.webp",
+   "confidence": 0.911,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_03_D.webp",
+     "score": 0.911
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_07_D.webp",
+     "score": 0.882
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_Town_Bridge_L_02_D.webp",
+     "score": 0.463
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_L_CSBridge_07_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_07_D.webp",
+   "confidence": 0.911,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_07_D.webp",
+     "score": 0.911
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_03_D.webp",
+     "score": 0.882
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_Town_Bridge_L_02_D.webp",
+     "score": 0.463
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Town_Bridge_L_01_D2_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_Town_Bridge_L_02_D.webp",
+   "confidence": 0.811,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_Town_Bridge_L_02_D.webp",
+     "score": 0.811
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_01_D.webp",
+     "score": 0.533
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_02_D.webp",
+     "score": 0.508
+    }
+   ]
+  }
+ ],
+ "16001": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Barriers_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Common/Textures/Baltic_prp_barriers_a.webp",
+   "confidence": 0.729,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Common/Textures/Baltic_prp_barriers_a.webp",
+     "score": 0.729
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Buildings/Textures/Baltic_papers.webp",
+     "score": 0.537
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/Baltic_Debris01_D.webp",
+     "score": 0.527
+    }
+   ]
+  }
+ ],
+ "16002": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Barrier01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.433,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Barrier_D.webp",
+     "score": 0.433
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Plasticbarrier_01_D.webp",
+     "score": 0.351
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_BalticBarrier_A.webp",
+     "score": 0.347
+    }
+   ]
+  }
+ ],
+ "16039": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_Net_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Fence01_A.webp",
+   "confidence": 0.721,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Fence01_A.webp",
+     "score": 0.721
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Net_A.webp",
+     "score": 0.631
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Fence_mdl.webp",
+     "score": 0.493
+    }
+   ]
+  }
+ ],
+ "16040": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_Net_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Fence01_A.webp",
+   "confidence": 0.721,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Fence01_A.webp",
+     "score": 0.721
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Net_A.webp",
+     "score": 0.631
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Fence_mdl.webp",
+     "score": 0.493
+    }
+   ]
+  }
+ ],
+ "16042": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteEdgeDecal_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteSectioned_A.webp",
+   "confidence": 0.95,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteSectioned_A.webp",
+     "score": 0.95
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteEdgeDecal_01_A.webp",
+     "score": 0.913
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteLooping_A.webp",
+     "score": 0.557
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteAddon02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteSectioned_A.webp",
+   "confidence": 0.95,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteSectioned_A.webp",
+     "score": 0.95
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteEdgeDecal_01_A.webp",
+     "score": 0.557
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Savage/Outdoor/T_Savage_BootConcreteLooping_A.webp",
+     "score": 0.55
+    }
+   ]
+  }
+ ],
+ "16043": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Bootcamp_Catwalk_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_Catwalk_A.webp",
+   "confidence": 0.902,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_Catwalk_A.webp",
+     "score": 0.902
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_CatwalkGrating_A.webp",
+     "score": 0.587
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/Bootcamp_CoverWalls/T_Bootcamp_CoverWall_A.webp",
+     "score": 0.55
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Bootcamp_CatwalkGrating_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_CatwalkGrating_A.webp",
+   "confidence": 0.928,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_CatwalkGrating_A.webp",
+     "score": 0.928
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Savage/T_Bootcamp_Catwalk_A.webp",
+     "score": 0.587
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Heaven/Buildings/Textures/T_Heaven_CatwalkGrating_A.webp",
+     "score": 0.542
+    }
+   ]
+  }
+ ],
+ "16057": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteBarrier_mdl_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_ConcreteBarrier_mdl_D.webp",
+   "confidence": 0.935,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_ConcreteBarrier_mdl_D.webp",
+     "score": 0.935
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_WoodCrate_mdl_A.webp",
+     "score": 0.584
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_Fence_mdl.webp",
+     "score": 0.554
+    }
+   ]
+  }
+ ],
+ "16097": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Opera_Trim_A_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Buildings/Textures/Unique/Opera/T_NE_Opera_Trim_A_BC.webp",
+   "confidence": 0.883,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/Unique/Opera/T_NE_Opera_Trim_A_BC.webp",
+     "score": 0.883
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Metal_D.webp",
+     "score": 0.536
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Trim_Wood_D.webp",
+     "score": 0.509
+    }
+   ]
+  }
+ ],
+ "16101": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Floor_Grass01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.464,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Metal_floor_01_D.webp",
+     "score": 0.464
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Stone_Floor_01_D.webp",
+     "score": 0.425
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Buildings/Textures/T_Baltic_Floor_01_A.webp",
+     "score": 0.421
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Wharf_Dike_01_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Props/Textures/Fence/T_NE_Wharf_Dike_01_D.webp",
+   "confidence": 0.902,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Fence/T_NE_Wharf_Dike_01_D.webp",
+     "score": 0.902
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_D.webp",
+     "score": 0.436
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_E.webp",
+     "score": 0.419
+    }
+   ]
+  }
+ ],
+ "16180": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Column_01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.419,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Grass_BaseColor_D.webp",
+     "score": 0.419
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/T_NE_StoneWall_01_A.webp",
+     "score": 0.412
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_StrawDummy_01_D.webp",
+     "score": 0.405
+    }
+   ]
+  }
+ ],
+ "16181": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Retaining_Wall_Base_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.39,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/EVCarFactory/T_NE_RT_SignalFrame_D.webp",
+     "score": 0.39
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.381
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_01_D.webp",
+     "score": 0.381
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Retaining_Wall_Top_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.388,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_03_D.webp",
+     "score": 0.388
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Concrete_Wall_01_D.webp",
+     "score": 0.388
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Buildings/Textures/Metal_Wall_02_D.webp",
+     "score": 0.38
+    }
+   ]
+  }
+ ],
+ "16194": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_EVCarFactory_Decals_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Buildings/Textures/EVCarFactory/T_NE_EVCarFactory_Decals_D.webp",
+   "confidence": 0.894,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/EVCarFactory/T_NE_EVCarFactory_Decals_D.webp",
+     "score": 0.894
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/EVCarFactory/T_NE_EVCarFactory_InteriorTrim_01_D.webp",
+     "score": 0.581
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_02_D.webp",
+     "score": 0.399
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Steel_01_Wet_Blue_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.402,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/T_metal_props_set_01_blue.webp",
+     "score": 0.402
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_E.webp",
+     "score": 0.363
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_D.webp",
+     "score": 0.347
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Road_Bridge_Concrete_Wet_01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.506,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/Road/Roads/Kiki/Textures/Kiki_Road_Concrete_Rows_01_A.webp",
+     "score": 0.506
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+     "score": 0.498
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_01_D.webp",
+     "score": 0.475
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_Road_1V_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/Road/Roads/Neon/Textures/T_Neon_Road_Asphalt_1V_D.webp",
+   "confidence": 0.685,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/Road/Roads/Neon/Textures/T_Neon_Road_Asphalt_1V_D.webp",
+     "score": 0.685
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Artifact/romanesque_churches/textures/Seamless/Block_Road_D.webp",
+     "score": 0.391
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_07_D.webp",
+     "score": 0.378
+    }
+   ]
+  }
+ ],
+ "16197": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Steel_01_Wet_Blue_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.402,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/T_metal_props_set_01_blue.webp",
+     "score": 0.402
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_E.webp",
+     "score": 0.363
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_D.webp",
+     "score": 0.347
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Road_Bridge_Concrete_Wet_01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.506,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/Road/Roads/Kiki/Textures/Kiki_Road_Concrete_Rows_01_A.webp",
+     "score": 0.506
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+     "score": 0.498
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_01_D.webp",
+     "score": 0.475
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_Road_1V_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/Road/Roads/Neon/Textures/T_Neon_Road_Asphalt_1V_D.webp",
+   "confidence": 0.685,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/Road/Roads/Neon/Textures/T_Neon_Road_Asphalt_1V_D.webp",
+     "score": 0.685
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Artifact/romanesque_churches/textures/Seamless/Block_Road_D.webp",
+     "score": 0.391
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_07_D.webp",
+     "score": 0.378
+    }
+   ]
+  }
+ ],
+ "16198": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Steel_01_Wet_Blue_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.402,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/T_metal_props_set_01_blue.webp",
+     "score": 0.402
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_E.webp",
+     "score": 0.363
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_01_D.webp",
+     "score": 0.347
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Road_Bridge_Concrete_Wet_01_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.506,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/Road/Roads/Kiki/Textures/Kiki_Road_Concrete_Rows_01_A.webp",
+     "score": 0.506
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/T_NE_Fence_Concrete_01_D.webp",
+     "score": 0.498
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_NE_HS_Old_Bridge_M_01_D.webp",
+     "score": 0.475
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_Road_1V_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/Road/Roads/Neon/Textures/T_Neon_Road_Asphalt_1V_D.webp",
+   "confidence": 0.685,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/Road/Roads/Neon/Textures/T_Neon_Road_Asphalt_1V_D.webp",
+     "score": 0.685
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Artifact/romanesque_churches/textures/Seamless/Block_Road_D.webp",
+     "score": 0.391
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Props/Textures/Bridge/T_Neon_L_CSBridge_07_D.webp",
+     "score": 0.378
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_EVCarFactory_Decals_02_Proxy",
+   "diffuse_guess": "TslGame/Content/Assets/World/Neon/Buildings/Textures/EVCarFactory/T_NE_EVCarFactory_Decals_D.webp",
+   "confidence": 0.894,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/EVCarFactory/T_NE_EVCarFactory_Decals_D.webp",
+     "score": 0.894
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Buildings/Textures/EVCarFactory/T_NE_EVCarFactory_InteriorTrim_01_D.webp",
+     "score": 0.581
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Neon/Feature/Textures/T_NE_MarketCrate_02_D.webp",
+     "score": 0.399
+    }
+   ]
+  }
+ ],
+ "16200": [
+  {
+   "source_material": "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Road_1V_Proxy",
+   "diffuse_guess": null,
+   "confidence": 0.546,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/Road/Textures/road/Tiger/T_Tiger_Road_Asphalt_03_D.webp",
+     "score": 0.546
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Buildings/Textures/T_Tiger_Wood_01_D.webp",
+     "score": 0.508
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Tiger/Props/Textures/T_Tiger_signboards_01_D.webp",
+     "score": 0.478
+    }
+   ]
+  }
+ ],
+ "30001": [
+  {
+   "source_material": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Common/Materials/MI_Chainlink01",
+   "diffuse_guess": null,
+   "confidence": 0.532,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Chainlink_A.webp",
+     "score": 0.532
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_ChainlinkFence_Tall_03_A.webp",
+     "score": 0.31
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_ChainlinkFence_Tall_02_A.webp",
+     "score": 0.31
+    }
+   ]
+  },
+  {
+   "source_material": "TslGame/Content/Assets/World/Baltic/Old/Assets/World/Common/Materials/MI_Chainlink01_wire",
+   "diffuse_guess": null,
+   "confidence": 0.481,
+   "alternatives": [
+    {
+     "path": "TslGame/Content/Assets/World/Common/Textures/Chainlink_A.webp",
+     "score": 0.481
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_ChainlinkFence_Tall_03_A.webp",
+     "score": 0.304
+    },
+    {
+     "path": "TslGame/Content/Assets/World/Baltic/Props/Common/Textures/T_Baltic_ChainlinkFence_Tall_02_A.webp",
+     "score": 0.304
+    }
+   ]
+  }
+ ]
+}
