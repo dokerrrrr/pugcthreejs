@@ -35,7 +35,8 @@ class AssetPacksTest(unittest.TestCase):
 
     def cli(self, *args, code=0):
         result = subprocess.run([sys.executable, "-B", "-m", "pugc_toolkit", "--json", *args],
-                                cwd=self.work, env={**os.environ, "PYTHONPATH": str(ROOT)},
+                                cwd=self.work, env={**os.environ, "PYTHONPATH": str(ROOT),
+                                                    "PUGC_ASSET_DIR": str(self.work / "default-assets")},
                                 capture_output=True, text=True, timeout=30)
         self.assertEqual(result.returncode, code, (result.stdout, result.stderr))
         return json.loads(result.stdout)
