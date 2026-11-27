@@ -1,5 +1,7 @@
 # Working with PUBG UGC maps
 
+**Explicit requests required:** Do not add gameplay devices or configure map settings unless the user explicitly requests that specific action. A general request to create, edit, or improve a map does not authorize either action. Preserve existing devices and map settings unless the user explicitly asks to change them.
+
 - Use `pugc init` for a new map and `pugc import` for an existing map.
   Use game XYZ in centimeters, with Z up, and the model's native pivot.
   A positive `yaw_deg` rotates +X toward +Y.
